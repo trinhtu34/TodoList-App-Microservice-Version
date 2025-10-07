@@ -5,6 +5,7 @@
 output
 !output/.gitkeep
 build
+.env
 
 Libs/TempTestCase*
 Libs/TempTestSuite*

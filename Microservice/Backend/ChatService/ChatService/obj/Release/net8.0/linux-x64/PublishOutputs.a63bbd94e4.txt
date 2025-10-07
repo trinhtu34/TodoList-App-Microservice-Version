@@ -1,0 +1,10 @@
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\ChatService.deps.json
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\ChatService.runtimeconfig.json
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\ChatService.pdb
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\Amazon.Lambda.Core.dll
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\AWSSDK.ApiGatewayManagementApi.dll
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\AWSSDK.Core.dll
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\AWSSDK.DynamoDBv2.dll
+D:\.vs\ToDoListApplication\Microservice\Backend\ChatService\ChatService\bin\Release\net8.0\publish\ChatService.dll

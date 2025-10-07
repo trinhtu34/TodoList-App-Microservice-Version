@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\MediaService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF493438-61F1-5100-DCFA-9E18C0BC969A}|MediaService\\MediaService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\mediaservice\\mediaservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF493438-61F1-5100-DCFA-9E18C0BC969A}|MediaService\\MediaService.csproj|solutionrelative:mediaservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF493438-61F1-5100-DCFA-9E18C0BC969A}|MediaService\\MediaService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\mediaservice\\mediaservice\\services\\scylladbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF493438-61F1-5100-DCFA-9E18C0BC969A}|MediaService\\MediaService.csproj|solutionrelative:mediaservice\\services\\scylladbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF493438-61F1-5100-DCFA-9E18C0BC969A}|MediaService\\MediaService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\mediaservice\\mediaservice\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BF493438-61F1-5100-DCFA-9E18C0BC969A}|MediaService\\MediaService.csproj|solutionrelative:mediaservice\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScyllaDBService.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\MediaService\\MediaService\\Services\\ScyllaDBService.cs",
+              "RelativeDocumentMoniker": "MediaService\\Services\\ScyllaDBService.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\MediaService\\MediaService\\Services\\ScyllaDBService.cs",
+              "RelativeToolTip": "MediaService\\Services\\ScyllaDBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:39:34.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\MediaService\\MediaService\\.env",
+              "RelativeDocumentMoniker": "MediaService\\.env",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\MediaService\\MediaService\\.env",
+              "RelativeToolTip": "MediaService\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-04T07:30:03.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\MediaService\\MediaService\\Startup.cs",
+              "RelativeDocumentMoniker": "MediaService\\Startup.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\MediaService\\MediaService\\Startup.cs",
+              "RelativeToolTip": "MediaService\\Startup.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:29:12.514Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
