@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\dtos\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\dtos\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\models\\groupsr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\models\\groupsr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\controllers\\directmessagegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\controllers\\directmessagegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\controllers\\groupinvitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\controllers\\groupinvitationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\controllers\\groupmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\controllers\\groupmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\models\\groupservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\models\\groupservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|d:\\.vs\\todolistapplication\\microservice\\backend\\groupservice\\groupservice\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{20A44423-2D48-7303-2AF4-AE07F0521D70}|GroupService\\GroupService.csproj|solutionrelative:groupservice\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "group.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\DTOs\\group.cs",
+              "RelativeDocumentMoniker": "GroupService\\DTOs\\group.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\DTOs\\group.cs",
+              "RelativeToolTip": "GroupService\\DTOs\\group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T05:01:42.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupsR.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Models\\GroupsR.cs",
+              "RelativeDocumentMoniker": "GroupService\\Models\\GroupsR.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Models\\GroupsR.cs",
+              "RelativeToolTip": "GroupService\\Models\\GroupsR.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:46:30.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DirectMessageGroupController.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\DirectMessageGroupController.cs",
+              "RelativeDocumentMoniker": "GroupService\\Controllers\\DirectMessageGroupController.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\DirectMessageGroupController.cs",
+              "RelativeToolTip": "GroupService\\Controllers\\DirectMessageGroupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:33:46.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupInvitationController.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\GroupInvitationController.cs",
+              "RelativeDocumentMoniker": "GroupService\\Controllers\\GroupInvitationController.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\GroupInvitationController.cs",
+              "RelativeToolTip": "GroupService\\Controllers\\GroupInvitationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:33:20.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupMemberController.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\GroupMemberController.cs",
+              "RelativeDocumentMoniker": "GroupService\\Controllers\\GroupMemberController.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\GroupMemberController.cs",
+              "RelativeToolTip": "GroupService\\Controllers\\GroupMemberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:32:50.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "GroupService\\Controllers\\GroupController.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "GroupService\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T04:32:10.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GroupServiceDbContext.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Models\\GroupServiceDbContext.cs",
+              "RelativeDocumentMoniker": "GroupService\\Models\\GroupServiceDbContext.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Models\\GroupServiceDbContext.cs",
+              "RelativeToolTip": "GroupService\\Models\\GroupServiceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T03:51:16.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Dockerfile",
+              "RelativeDocumentMoniker": "GroupService\\Dockerfile",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Dockerfile",
+              "RelativeToolTip": "GroupService\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-07T02:44:01.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Readme.md",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Readme.md",
+              "RelativeDocumentMoniker": "GroupService\\Readme.md",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Readme.md",
+              "RelativeToolTip": "GroupService\\Readme.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-07T02:43:24.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Startup.cs",
+              "RelativeDocumentMoniker": "GroupService\\Startup.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\Startup.cs",
+              "RelativeToolTip": "GroupService\\Startup.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T02:40:06.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\.env",
+              "RelativeDocumentMoniker": "GroupService\\.env",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\.env",
+              "RelativeToolTip": "GroupService\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-07T02:35:56.838Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

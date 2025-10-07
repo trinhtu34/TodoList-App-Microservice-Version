@@ -1,0 +1,105 @@
+namespace ToDoService.ServiceClients
+{
+    public interface ITagServiceClient
+    {
+        Task<List<TagDto>> GetTagsForTodo(int todoId, string token);
+        Task RemoveTagsForTodo(int todoId);
+        Task AddTagToTodo(int todoId, int tagId, string token);
+        Task RemoveTagFromTodo(int todoId, int tagId, string token);
+    }
+
+    public class TagDto
+    {
+        public int TagId { get; set; }
+        public string TagName { get; set; }
+        public string Color { get; set; }
+    }
+
+    public class TagServiceClient : ITagServiceClient
+    {
+        private readonly HttpClient _httpClient;
+        private readonly ILogger<TagServiceClient> _logger;
+
+        public TagServiceClient(HttpClient httpClient, IConfiguration configuration, ILogger<TagServiceClient> logger)
+        {
+            _httpClient = httpClien
+            _logger = logger;
+
+            // Read from .env or appsettings.json
+            var tagServiceUrl = configuration["ServiceEndpoint:TagService"]
+                ?? Environment.GetEnvironmentVariable("ServiceEndpoint__TagService");
+
+            _httpClient.BaseAddress = new Uri(tagServiceUrl);
+        }
+
+        public async Task<List<TagDto>> GetTagsForTodo(int todoId, string token)
+        {
+            try
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = 
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                var response = await _httpClient.GetAsync($"/api/tag/todo/{todoId}");
+                
+                if (response.IsSuccessStatusCode)
+                {
+                    return await response.Content.ReadFromJsonAsync<List<TagDto>>() ?? new List<TagDto>();
+                }
+
+                return new List<TagDto>();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error getting tags for todo {TodoId}", todoId);
+                return new List<TagDto>();
+            }
+        }
+
+        public async Task RemoveTagsForTodo(int todoId)
+        {
+            try
+            {
+                await _httpClient.DeleteAsync($"/api/tag/cleanup/todo/{todoId}");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error removing tags for todo {TodoId}", todoId);
+            }
+        }
+
+        public async Task AddTagToTodo(int todoId, int tagId, string token)
+        {
+            try
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = 
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                var content = new StringContent(
+                    System.Text.Json.JsonSerializer.Serialize(new { tagId }),
+                    System.Text.Encoding.UTF8,
+                    "application/json");
+
+                await _httpClient.PostAsync($"/api/tag/todo/{todoId}", content);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error adding tag to todo");
+            }
+        }
+
+        public async Task RemoveTagFromTodo(int todoId, int tagId, string token)
+        {
+            try
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = 
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+
+                await _httpClient.DeleteAsync($"/api/tag/todo/{todoId}/tag/{tagId}");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error removing tag from todo");
+            }
+        }
+    }
+}
