@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace GroupService.Models;
@@ -16,6 +16,8 @@ public partial class GroupsR
     public string? GroupName { get; set; }
 
     public string? GroupAvatar { get; set; }
+
+    public string? GroupDescription { get; set; }
 
     /// <summary>
     /// direct=1-1 chat, group=multiple users

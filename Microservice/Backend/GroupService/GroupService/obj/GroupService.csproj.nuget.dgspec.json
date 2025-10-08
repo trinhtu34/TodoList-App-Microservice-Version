@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj": {}
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj": {}
   },
   "projects": {
-    "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj": {
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj",
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj",
         "projectName": "GroupService",
-        "projectPath": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj",
         "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
-        "outputPath": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\GroupService\\GroupService\\obj\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService\\GroupService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +57,10 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
