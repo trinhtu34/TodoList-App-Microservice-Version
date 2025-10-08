@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace GroupService.Models;
@@ -28,6 +28,10 @@ public partial class GroupMember
     /// User muted notifications
     /// </summary>
     public bool? IsMuted { get; set; }
+
+    public bool? IsActive { get; set; }
+
+    public DateTime? LeftAt { get; set; }
 
     public virtual GroupsR Group { get; set; } = null!;
 }
