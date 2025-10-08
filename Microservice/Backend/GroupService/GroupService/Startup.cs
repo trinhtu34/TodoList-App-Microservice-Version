@@ -33,6 +33,8 @@ public class Startup
             ServerVersion.AutoDetect(Configuration.GetConnectionString("DefaultConnection"))
         ));
 
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).Assembly));
+
 
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         .AddJwtBearer(options =>
