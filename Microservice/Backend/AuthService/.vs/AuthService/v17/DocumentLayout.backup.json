@@ -58,8 +58,7 @@
               "RelativeToolTip": "AuthService\\aws-lambda-tools-defaults.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-07T15:05:53.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T15:05:53.785Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "AuthService\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-07T15:05:52.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T15:05:52.088Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "AuthService\\DTOs\\AuthDTOs.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T15:05:13.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T15:05:13.301Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAmwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T09:57:18.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T09:57:18.097Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "AuthService\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-05T09:39:46.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T09:39:46.983Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "AuthService\\Models\\CognitoModels.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T09:30:22.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T09:30:22.896Z"
             },
             {
               "$type": "Document",
@@ -136,8 +130,7 @@
               "RelativeToolTip": "AuthService\\Services\\CognitoService.cs",
               "ViewState": "AgIAAC8BAAAAAAAAAAAiwBMBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T09:23:46.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T09:23:46.436Z"
             },
             {
               "$type": "Document",
@@ -147,7 +140,7 @@
               "RelativeDocumentMoniker": "AuthService\\Startup.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\AuthService\\AuthService\\Startup.cs",
               "RelativeToolTip": "AuthService\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwHAAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T09:13:07.701Z",
               "EditorCaption": ""
@@ -162,8 +155,7 @@
               "RelativeToolTip": "AuthService\\.env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-05T09:11:28.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T09:11:28.755Z"
             }
           ]
         }

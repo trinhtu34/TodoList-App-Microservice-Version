@@ -4,7 +4,7 @@ using GroupService.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace GroupService.Application.Groups.Commands;
+namespace GroupService.Application.Groups.Commands.Group;
 
 public record CreateGroupCommand(string GroupName, string? GroupAvatar, string? GroupDescription, string UserId) 
     : ICommand<GroupResponse>;
