@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.vs\\ToDoListApplication\\Microservice\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj": {}
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj": {}
   },
   "projects": {
-    "D:\\.vs\\ToDoListApplication\\Microservice\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj": {
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\Microservice\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj",
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj",
         "projectName": "ChatService_SignalR_Version",
-        "projectPath": "D:\\.vs\\ToDoListApplication\\Microservice\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj",
         "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
-        "outputPath": "D:\\.vs\\ToDoListApplication\\Microservice\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\obj\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CassandraCSharpDriver": {
+              "target": "Package",
+              "version": "[3.22.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.22.1, )"

@@ -1,5 +1,5 @@
-﻿using GroupService.Application.Groups.Commands.Group;
-using GroupService.Application.Groups.Queries.Group;
+﻿using GroupService.Application.Groups.Commands;
+using GroupService.Application.Groups.Queries;
 using GroupService.DTOs;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -8,7 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 
 namespace GroupService.Controllers;
 
-[Route("api/groups")]
+[Route("api/[controller]")]
 [ApiController]
 [Authorize]
 public class GroupController : ControllerBase

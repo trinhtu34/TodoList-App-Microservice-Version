@@ -1,3 +1,12 @@
+using Cassandra;
+
+var cluster = Cluster.Builder()
+    .AddContactPoint("localhost") // Replace with your ScyllaDB IP
+    .WithPort(9042) // Default ScyllaDB port
+    .Build();
+
+Cassandra.ISession session = await cluster.ConnectAsync("chat_service");
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
