@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace GroupService.Models;
@@ -29,8 +29,14 @@ public partial class GroupMember
     /// </summary>
     public bool? IsMuted { get; set; }
 
+    /// <summary>
+    /// FALSE if user left group
+    /// </summary>
     public bool? IsActive { get; set; }
 
+    /// <summary>
+    /// When user left the group
+    /// </summary>
     public DateTime? LeftAt { get; set; }
 
     public virtual GroupsR Group { get; set; } = null!;

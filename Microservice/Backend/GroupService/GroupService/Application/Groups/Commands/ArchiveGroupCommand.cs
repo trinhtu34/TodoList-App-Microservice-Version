@@ -3,20 +3,20 @@ using GroupService.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace GroupService.Application.Groups.Commands.Group;
+namespace GroupService.Application.Groups.Commands;
 
-public record DeleteGroupCommand(int GroupId, string UserId) : ICommand<bool>;
+public record ArchiveGroupCommand(int GroupId, string UserId) : ICommand<bool>;
 
-public class DeleteGroupCommandHandler : IRequestHandler<DeleteGroupCommand, bool>
+public class ArchiveGroupCommandHandler : IRequestHandler<ArchiveGroupCommand, bool>
 {
     private readonly GroupServiceDbContext _context;
 
-    public DeleteGroupCommandHandler(GroupServiceDbContext context)
+    public ArchiveGroupCommandHandler(GroupServiceDbContext context)
     {
         _context = context;
     }
 
-    public async Task<bool> Handle(DeleteGroupCommand request, CancellationToken cancellationToken)
+    public async Task<bool> Handle(ArchiveGroupCommand request, CancellationToken cancellationToken)
     {
         var group = await _context.GroupsRs
             .Include(g => g.GroupMembers)
@@ -26,10 +26,10 @@ public class DeleteGroupCommandHandler : IRequestHandler<DeleteGroupCommand, boo
         var member = group.GroupMembers.FirstOrDefault(m => m.UserId == request.UserId)
             ?? throw new Exception("Not a member");
 
-        if (member.Role != "owner")
-            throw new Exception("Only owner can delete group");
+        if (member.Role != "owner" && member.Role != "admin")
+            throw new Exception("No permission");
 
-        _context.GroupsRs.Remove(group);
+        group.IsActive = false;
         await _context.SaveChangesAsync(cancellationToken);
 
         return true;

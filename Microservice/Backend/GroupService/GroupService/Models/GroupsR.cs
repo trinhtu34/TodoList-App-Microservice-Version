@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace GroupService.Models;
@@ -16,8 +16,6 @@ public partial class GroupsR
     public string? GroupName { get; set; }
 
     public string? GroupAvatar { get; set; }
-
-    public string? GroupDescription { get; set; }
 
     /// <summary>
     /// direct=1-1 chat, group=multiple users
@@ -39,6 +37,11 @@ public partial class GroupsR
     public DateTime? LastMessageAt { get; set; }
 
     public bool? IsActive { get; set; }
+
+    /// <summary>
+    /// Group description/bio
+    /// </summary>
+    public string? GroupDescription { get; set; }
 
     public virtual DirectMessageGroup? DirectMessageGroup { get; set; }
 

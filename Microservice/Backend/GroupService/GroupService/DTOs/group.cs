@@ -23,5 +23,7 @@ public record GroupListResponse(
     string? GroupAvatar,
     string GroupType,
     DateTime? LastMessageAt,
-    int UnreadCount
+    int UnreadCount,
+    string UserRole,
+    int MemberCount
 );

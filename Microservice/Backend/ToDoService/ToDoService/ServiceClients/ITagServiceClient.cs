@@ -22,7 +22,7 @@ namespace ToDoService.ServiceClients
 
         public TagServiceClient(HttpClient httpClient, IConfiguration configuration, ILogger<TagServiceClient> logger)
         {
-            _httpClient = httpClien
+            _httpClient = httpClient;
             _logger = logger;
 
             // Read from .env or appsettings.json
