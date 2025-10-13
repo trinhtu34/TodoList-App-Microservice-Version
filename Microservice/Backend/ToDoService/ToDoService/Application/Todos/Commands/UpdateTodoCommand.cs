@@ -1,5 +1,6 @@
 using MediatR;
 using ToDoService.Application.Common;
+using ToDoService.DTOs;
 using ToDoService.Models;
 using ToDoService.ServiceClients;
 
@@ -11,28 +12,31 @@ public record UpdateTodoCommand(
     bool? IsDone,
     DateTime? DueDate,
     string? AssignedTo,
-    string UserId
-) : ICommand<bool>;
+    string UserId,
+    string Token
+) : ICommand<TodoResponse>;
 
-public class UpdateTodoCommandHandler : IRequestHandler<UpdateTodoCommand, bool>
+public class UpdateTodoCommandHandler : IRequestHandler<UpdateTodoCommand, TodoResponse>
 {
     private readonly TodoServiceDbContext _context;
+    private readonly ITagServiceClient _tagServiceClient;
 
-    public UpdateTodoCommandHandler(TodoServiceDbContext context, IGroupServiceClient_TempUnUse groupServiceClient)
+    public UpdateTodoCommandHandler(
+        TodoServiceDbContext context,
+        ITagServiceClient tagServiceClient)
     {
         _context = context;
+        _tagServiceClient = tagServiceClient;
     }
 
-    public async Task<bool> Handle(UpdateTodoCommand request, CancellationToken cancellationToken)
+    public async Task<TodoResponse> Handle(UpdateTodoCommand request, CancellationToken cancellationToken)
     {
         var todo = await _context.Todos.FindAsync(request.TodoId);
         if (todo == null)
             throw new KeyNotFoundException("Todo not found");
 
-        else if (todo.CognitoSub != request.UserId)
-        {
+        if (todo.CognitoSub != request.UserId)
             throw new UnauthorizedAccessException();
-        }
 
         if (request.Description != null) todo.Description = request.Description;
         if (request.IsDone.HasValue) todo.IsDone = request.IsDone.Value;
@@ -42,6 +46,25 @@ public class UpdateTodoCommandHandler : IRequestHandler<UpdateTodoCommand, bool>
         todo.UpdateAt = DateTime.UtcNow;
 
         await _context.SaveChangesAsync(cancellationToken);
-        return true;
+
+        var tags = await _tagServiceClient.GetTagsForTodo(todo.TodoId, request.Token);
+
+        return new TodoResponse
+        {
+            TodoId = todo.TodoId,
+            Description = todo.Description,
+            IsDone = todo.IsDone,
+            DueDate = todo.DueDate,
+            CreateAt = todo.CreateAt,
+            UpdateAt = todo.UpdateAt,
+            GroupId = todo.GroupId,
+            AssignedTo = todo.AssignedTo,
+            Tags = tags.Select(t => new TagResponse
+            {
+                TagId = t.TagId,
+                TagName = t.TagName,
+                Color = t.Color
+            }).ToList()
+        };
     }
 }

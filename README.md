@@ -1,6 +1,6 @@
 # Mục tiêu dự án 
 
-Dự án này được tạo ra với mục đích để học Microservice , cùng với việc sử dụng AWS Services 
+Dự án này được tạo ra với mục đích để học Microservice , cùng với việc sử dụng AWS Services . Frontend hoàn toàn là Vide Coding .
 
 # Thông tin về dự án 
 

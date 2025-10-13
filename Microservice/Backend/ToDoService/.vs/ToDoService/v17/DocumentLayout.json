@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\application\\todos\\commands\\updatetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\application\\todos\\commands\\updatetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\application\\todos\\commands\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\application\\todos\\commands\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\application\\todos\\commands\\deletetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\application\\todos\\commands\\deletetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\application\\todos\\queries\\gettodosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\application\\todos\\queries\\gettodosquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\serviceclients\\igroupserviceclient_tempunuse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\application\\todos\\commands\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\application\\todos\\commands\\createtodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\application\\todos\\commands\\deletetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\application\\todos\\commands\\deletetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\application\\todos\\commands\\updatetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|solutionrelative:todoservice\\application\\todos\\commands\\updatetodocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2F3F802-D26A-8A91-89C6-92099BDCFA0A}|ToDoService\\ToDoService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\todoservice\\todoservice\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,23 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetTodoByCognitosubQuery.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
-              "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
-              "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T19:48:19.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "GetTodoByIdQuery.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
               "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
@@ -126,32 +114,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GetTodosQuery.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
               "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAjwB4AAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA2wBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T17:12:06.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "CreateTodoCommand.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\CreateTodoCommand.cs",
               "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Commands\\CreateTodoCommand.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\CreateTodoCommand.cs",
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Commands\\CreateTodoCommand.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:53:25.11Z"
+              "WhenOpened": "2025-10-11T13:53:25.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ITagServiceClient.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\ServiceClients\\ITagServiceClient.cs",
               "RelativeDocumentMoniker": "ToDoService\\ServiceClients\\ITagServiceClient.cs",
@@ -163,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TodoDTOs.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\DTOs\\TodoDTOs.cs",
               "RelativeDocumentMoniker": "ToDoService\\DTOs\\TodoDTOs.cs",
@@ -175,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "TodosController.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Controllers\\TodosController.cs",
               "RelativeDocumentMoniker": "ToDoService\\Controllers\\TodosController.cs",
@@ -187,19 +176,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "DeleteTodoCommand.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\DeleteTodoCommand.cs",
               "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Commands\\DeleteTodoCommand.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\DeleteTodoCommand.cs",
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Commands\\DeleteTodoCommand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:06:33.105Z"
+              "WhenOpened": "2025-10-11T14:06:33.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "IGroupServiceClient_TempUnUse.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\ServiceClients\\IGroupServiceClient_TempUnUse.cs",
               "RelativeDocumentMoniker": "ToDoService\\ServiceClients\\IGroupServiceClient_TempUnUse.cs",
@@ -211,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": ".env",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\.env",
               "RelativeDocumentMoniker": "ToDoService\\.env",
@@ -223,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Dockerfile",
               "RelativeDocumentMoniker": "ToDoService\\Dockerfile",
@@ -235,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Startup.cs",
               "RelativeDocumentMoniker": "ToDoService\\Startup.cs",
@@ -247,15 +237,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "UpdateTodoCommand.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
               "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:09:46.792Z"
+              "WhenOpened": "2025-10-11T14:09:46.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetTodoByCognitosubQuery.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
+              "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
+              "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodoByCognitosubQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T19:48:19.198Z"
             },
             {
               "$type": "Document",
