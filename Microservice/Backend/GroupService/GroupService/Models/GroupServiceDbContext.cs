@@ -118,6 +118,10 @@ public partial class GroupServiceDbContext : DbContext
                 .HasMaxLength(50)
                 .HasComment("cognito_sub")
                 .HasColumnName("user_id");
+            entity.Property(e => e.IsActive)
+                .HasDefaultValueSql("'1'")
+                .HasComment("FALSE if user left group")
+                .HasColumnName("is_active");
             entity.Property(e => e.IsMuted)
                 .HasDefaultValueSql("'0'")
                 .HasComment("User muted notifications")
@@ -130,6 +134,10 @@ public partial class GroupServiceDbContext : DbContext
                 .HasComment("Last time user read messages in this group")
                 .HasColumnType("datetime")
                 .HasColumnName("last_read_at");
+            entity.Property(e => e.LeftAt)
+                .HasComment("When user left the group")
+                .HasColumnType("datetime")
+                .HasColumnName("left_at");
             entity.Property(e => e.Role)
                 .HasDefaultValueSql("'member'")
                 .HasColumnType("enum('owner','admin','member')")
@@ -166,6 +174,10 @@ public partial class GroupServiceDbContext : DbContext
             entity.Property(e => e.GroupAvatar)
                 .HasMaxLength(500)
                 .HasColumnName("group_avatar");
+            entity.Property(e => e.GroupDescription)
+                .HasComment("Group description/bio")
+                .HasColumnType("text")
+                .HasColumnName("group_description");
             entity.Property(e => e.GroupName)
                 .HasMaxLength(255)
                 .HasComment("NULL for 1-1 chats or unnamed groups")

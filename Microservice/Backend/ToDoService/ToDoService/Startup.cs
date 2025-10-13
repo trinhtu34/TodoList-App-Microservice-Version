@@ -36,11 +36,6 @@ public class Startup
         {
             client.BaseAddress = new Uri(Configuration["ServiceEndpoints:TagService"]);
         });
-        services.AddHttpClient<ServiceClients.IGroupServiceClient, ServiceClients.GroupServiceClient>(client =>
-        {
-            client.BaseAddress = new Uri(Configuration["ServiceEndpoints:GroupService"]);
-        });
-
 
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
@@ -108,6 +103,8 @@ public class Startup
         });
 
         services.AddLogging();
+
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).Assembly));
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline

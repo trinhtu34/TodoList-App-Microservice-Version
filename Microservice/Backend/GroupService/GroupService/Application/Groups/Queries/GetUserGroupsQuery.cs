@@ -4,7 +4,7 @@ using GroupService.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace GroupService.Application.Groups.Queries.Group;
+namespace GroupService.Application.Groups.Queries;
 
 public record GetUserGroupsQuery(string UserId) : IQuery<List<GroupListResponse>>;
 
@@ -22,15 +22,18 @@ public class GetUserGroupsQueryHandler : IRequestHandler<GetUserGroupsQuery, Lis
         var groups = await _context.GroupMembers
             .Where(m => m.UserId == request.UserId && m.IsActive == true)
             .Include(m => m.Group)
+                .ThenInclude(g => g.GroupMembers)
+            .OrderByDescending(m => m.Group.LastMessageAt)
             .Select(m => new GroupListResponse(
                 m.Group.GroupId,
                 m.Group.GroupName,
                 m.Group.GroupAvatar,
                 m.Group.GroupType!,
                 m.Group.LastMessageAt,
-                0 // TODO: Calculate unread count
+                0,
+                m.Role!,
+                m.Group.GroupMembers.Count(gm => gm.IsActive == true)
             ))
-            .OrderByDescending(g => g.LastMessageAt)
             .ToListAsync(cancellationToken);
 
         return groups;

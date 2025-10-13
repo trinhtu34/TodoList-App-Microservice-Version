@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj": {}
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj": {}
   },
   "projects": {
-    "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj": {
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj",
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj",
         "projectName": "ToDoService",
-        "projectPath": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\ToDoService.csproj",
         "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
-        "outputPath": "D:\\.vs\\ToDoListApplication\\Microservice\\Backend\\ToDoService\\ToDoService\\obj\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +57,10 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

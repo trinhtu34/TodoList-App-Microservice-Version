@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const TAG_API_BASE_URL = import.meta.env.VITE_TAG_API_BASE_URL || 'http://localhost:32771/api';
+const TAG_API_BASE_URL = import.meta.env.VITE_TAG_API_BASE_URL;
 
 const tagApi = axios.create({
   baseURL: TAG_API_BASE_URL,

@@ -4,7 +4,7 @@ using GroupService.Models;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace GroupService.Application.Groups.Queries.Group;
+namespace GroupService.Application.Groups.Queries;
 
 public record GetGroupByIdQuery(int GroupId, string UserId) : IQuery<GroupResponse>;
 
