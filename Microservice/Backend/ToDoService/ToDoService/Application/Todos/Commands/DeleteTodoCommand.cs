@@ -27,9 +27,7 @@ public class DeleteTodoCommandHandler : IRequestHandler<DeleteTodoCommand, bool>
             throw new KeyNotFoundException("Todo not found");
 
         if (todo.CognitoSub != request.UserId)
-        {
             throw new UnauthorizedAccessException();
-        }
 
         await _tagServiceClient.RemoveTagsForTodo(request.TodoId);
 

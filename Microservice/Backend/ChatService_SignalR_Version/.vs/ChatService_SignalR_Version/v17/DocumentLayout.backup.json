@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\Microservice\\ChatService_SignalR_Version\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Program.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Program.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Program.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T03:45:21.798Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -27,10 +27,8 @@ public class GetTodoByIdQueryHandler : IRequestHandler<GetTodoByIdQuery, TodoRes
         if (todo == null)
             throw new KeyNotFoundException("Todo not found");
 
-        else if (todo.CognitoSub != request.UserId)
-        {
+        if (todo.CognitoSub != request.UserId)
             throw new UnauthorizedAccessException();
-        }
 
         var tags = await _tagServiceClient.GetTagsForTodo(todo.TodoId, request.Token);
 

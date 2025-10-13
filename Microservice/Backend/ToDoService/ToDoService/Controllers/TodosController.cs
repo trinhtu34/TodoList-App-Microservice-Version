@@ -8,7 +8,7 @@ using ToDoService.DTOs;
 
 namespace ToDoService.Controllers;
 
-[Route("api/todos")]
+[Route("api/[controller]")]
 [ApiController]
 [Authorize]
 public class TodosController : ControllerBase
@@ -20,7 +20,7 @@ public class TodosController : ControllerBase
         _mediator = mediator;
     }
 
-    private string GetCognitoSub()
+    private string GetUserId()
     {
         var authHeader = Request.Headers["Authorization"].FirstOrDefault();
         if (authHeader != null && authHeader.StartsWith("Bearer "))
@@ -46,10 +46,7 @@ public class TodosController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<List<TodoResponse>>> GetTodos([FromQuery] int? groupId)
     {
-        var userId = GetCognitoSub();
-        if (string.IsNullOrEmpty(userId))
-            return Unauthorized();
-
+        var userId = GetUserId();
         var query = new GetTodosQuery(userId, groupId, GetToken());
         var result = await _mediator.Send(query);
         return Ok(result);
@@ -58,7 +55,7 @@ public class TodosController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<TodoResponse>> GetTodo(int id)
     {
-        var userId = GetCognitoSub();
+        var userId = GetUserId();
         var query = new GetTodoByIdQuery(id, userId, GetToken());
         var result = await _mediator.Send(query);
         return Ok(result);
@@ -67,10 +64,7 @@ public class TodosController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<TodoResponse>> CreateTodo([FromBody] CreateTodoRequest request)
     {
-        var userId = GetCognitoSub();
-        if (string.IsNullOrEmpty(userId))
-            return Unauthorized();
-
+        var userId = GetUserId();
         var command = new CreateTodoCommand(
             request.Description,
             request.DueDate,
@@ -80,32 +74,31 @@ public class TodosController : ControllerBase
             userId,
             GetToken()
         );
-
         var result = await _mediator.Send(command);
-        return CreatedAtAction(nameof(GetTodo), new { id = result.TodoId }, result);
+        return Ok(result);
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateTodo(int id, [FromBody] UpdateTodoRequest request)
+    public async Task<ActionResult<TodoResponse>> UpdateTodo(int id, [FromBody] UpdateTodoRequest request)
     {
-        var userId = GetCognitoSub();
+        var userId = GetUserId();
         var command = new UpdateTodoCommand(
             id,
             request.Description,
             request.IsDone,
             request.DueDate,
             request.AssignedTo,
-            userId
+            userId,
+            GetToken()
         );
-
-        await _mediator.Send(command);
-        return NoContent();
+        var result = await _mediator.Send(command);
+        return Ok(result);
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteTodo(int id)
+    public async Task<ActionResult> DeleteTodo(int id)
     {
-        var userId = GetCognitoSub();
+        var userId = GetUserId();
         var command = new DeleteTodoCommand(id, userId);
         await _mediator.Send(command);
         return NoContent();
