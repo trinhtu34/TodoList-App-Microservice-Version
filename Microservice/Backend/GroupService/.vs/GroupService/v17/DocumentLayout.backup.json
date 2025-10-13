@@ -102,8 +102,7 @@
               "RelativeToolTip": "GroupService\\Application\\Common\\ICommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:57:49.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T07:57:49.318Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "GroupService\\Models\\GroupMember.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:54:04.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T07:54:04.856Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "GroupService\\DTOs\\group.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T05:01:42.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T05:01:42.03Z"
             },
             {
               "$type": "Document",
@@ -141,8 +138,7 @@
               "RelativeToolTip": "GroupService\\Models\\GroupsR.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T04:46:30.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T04:46:30.237Z"
             },
             {
               "$type": "Document",
@@ -154,8 +150,7 @@
               "RelativeToolTip": "GroupService\\Startup.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAIwBQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T02:40:06.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T02:40:06.358Z"
             },
             {
               "$type": "Document",
@@ -167,8 +162,7 @@
               "RelativeToolTip": "GroupService\\Application\\Groups\\Queries\\GetGroupByIdQuery.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T08:02:50.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T08:02:50.025Z"
             },
             {
               "$type": "Document",
@@ -180,8 +174,7 @@
               "RelativeToolTip": "GroupService\\Controllers\\GroupInvitationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T04:33:20.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T04:33:20.624Z"
             },
             {
               "$type": "Document",
@@ -193,8 +186,7 @@
               "RelativeToolTip": "GroupService\\Application\\Groups\\Queries\\GetUserGroupsQuery.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAgAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T08:03:02.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T08:03:02.665Z"
             },
             {
               "$type": "Document",
@@ -206,8 +198,7 @@
               "RelativeToolTip": "GroupService\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-08T10:05:06.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:05:06.679Z"
             },
             {
               "$type": "Document",
@@ -217,7 +208,7 @@
               "RelativeDocumentMoniker": "GroupService\\Controllers\\GroupController.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService\\GroupService\\Controllers\\GroupController.cs",
               "RelativeToolTip": "GroupService\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwCQAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-07T04:32:10.359Z",
               "EditorCaption": ""
@@ -232,8 +223,7 @@
               "RelativeToolTip": "GroupService\\Application\\Common\\IQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:57:55.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T07:57:55.932Z"
             },
             {
               "$type": "Document",
@@ -245,8 +235,7 @@
               "RelativeToolTip": "GroupService\\Application\\Groups\\Commands\\CreateGroupCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:58:13.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T07:58:13.384Z"
             },
             {
               "$type": "Document",
@@ -258,8 +247,7 @@
               "RelativeToolTip": "GroupService\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-08T10:07:34.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T10:07:34.792Z"
             },
             {
               "$type": "Document",
@@ -271,8 +259,7 @@
               "RelativeToolTip": ".dockerignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-08T11:40:17.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T11:40:17.023Z"
             },
             {
               "$type": "Document",
@@ -284,8 +271,7 @@
               "RelativeToolTip": "GroupService\\Application\\Groups\\Commands\\ArchiveGroupCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T07:58:00.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T07:58:00.969Z"
             },
             {
               "$type": "Document",
@@ -297,8 +283,7 @@
               "RelativeToolTip": "GroupService\\Models\\GroupServiceDbContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T03:51:16.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T03:51:16.557Z"
             },
             {
               "$type": "Document",
@@ -310,8 +295,7 @@
               "RelativeToolTip": "GroupService\\.env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-07T02:35:56.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T02:35:56.838Z"
             },
             {
               "$type": "Document",
@@ -323,8 +307,7 @@
               "RelativeToolTip": "GroupService\\Controllers\\DirectMessageGroupController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T04:33:46.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T04:33:46.357Z"
             },
             {
               "$type": "Document",
@@ -336,8 +319,7 @@
               "RelativeToolTip": "GroupService\\Controllers\\GroupMemberController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T04:32:50.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T04:32:50.044Z"
             },
             {
               "$type": "Document",
@@ -349,8 +331,7 @@
               "RelativeToolTip": "GroupService\\Readme.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-10-07T02:43:24.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T02:43:24.172Z"
             }
           ]
         }
