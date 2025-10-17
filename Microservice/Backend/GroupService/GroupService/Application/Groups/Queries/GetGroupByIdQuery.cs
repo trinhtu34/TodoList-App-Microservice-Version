@@ -28,6 +28,18 @@ public class GetGroupByIdQueryHandler : IRequestHandler<GetGroupByIdQuery, Group
         if (!isMember)
             throw new Exception("Not a member");
 
+        var members = group.GroupMembers
+            .Where(m => m.IsActive == true)
+            .Select(m => new MemberResponse(
+                m.UserId,
+                m.Role!,
+                m.Nickname,
+                m.JoinedAt!.Value,
+                m.IsMuted!.Value,
+                m.IsActive!.Value
+            ))
+            .ToList();
+
         return new GroupResponse(
             group.GroupId,
             group.GroupName,
@@ -38,7 +50,8 @@ public class GetGroupByIdQueryHandler : IRequestHandler<GetGroupByIdQuery, Group
             group.CreatedAt!.Value,
             group.LastMessageAt,
             group.IsActive!.Value,
-            group.GroupMembers.Count(m => m.IsActive == true)
+            members.Count,
+            members
         );
     }
 }

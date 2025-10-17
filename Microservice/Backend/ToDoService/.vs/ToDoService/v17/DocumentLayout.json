@@ -122,8 +122,7 @@
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAIA2wBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T17:12:06.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T17:12:06.232Z"
             },
             {
               "$type": "Document",
@@ -135,8 +134,7 @@
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Commands\\CreateTodoCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T13:53:25.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T13:53:25.11Z"
             },
             {
               "$type": "Document",
@@ -184,8 +182,7 @@
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Commands\\DeleteTodoCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T14:06:33.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-11T14:06:33.105Z"
             },
             {
               "$type": "Document",
@@ -243,7 +240,7 @@
               "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T14:09:46.792Z",
               "EditorCaption": ""

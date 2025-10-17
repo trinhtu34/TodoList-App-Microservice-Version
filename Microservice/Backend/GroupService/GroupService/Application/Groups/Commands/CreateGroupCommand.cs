@@ -21,7 +21,7 @@ public class CreateGroupCommandHandler : IRequestHandler<CreateGroupCommand, Gro
     public async Task<GroupResponse> Handle(CreateGroupCommand request, CancellationToken cancellationToken)
     {
         var group = new GroupsR
-        {
+        {   
             GroupName = request.GroupName,
             GroupAvatar = request.GroupAvatar,
             GroupDescription = request.GroupDescription,
@@ -35,7 +35,7 @@ public class CreateGroupCommandHandler : IRequestHandler<CreateGroupCommand, Gro
         await _context.SaveChangesAsync(cancellationToken);
 
         // Add creator as owner
-        var member = new GroupMember
+        var member = new Models.GroupMember
         {
             GroupId = group.GroupId,
             UserId = request.UserId,

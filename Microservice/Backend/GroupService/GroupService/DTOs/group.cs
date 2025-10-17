@@ -14,7 +14,8 @@ public record GroupResponse(
     DateTime CreatedAt,
     DateTime? LastMessageAt,
     bool IsActive,
-    int MemberCount
+    int MemberCount,
+    List<MemberResponse>? Members
 );
 
 public record GroupListResponse(
