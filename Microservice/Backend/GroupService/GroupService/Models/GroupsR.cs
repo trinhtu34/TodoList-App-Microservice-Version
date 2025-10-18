@@ -18,6 +18,11 @@ public partial class GroupsR
     public string? GroupAvatar { get; set; }
 
     /// <summary>
+    /// Group description/bio
+    /// </summary>
+    public string? GroupDescription { get; set; }
+
+    /// <summary>
     /// direct=1-1 chat, group=multiple users
     /// </summary>
     public string? GroupType { get; set; }
@@ -37,11 +42,6 @@ public partial class GroupsR
     public DateTime? LastMessageAt { get; set; }
 
     public bool? IsActive { get; set; }
-
-    /// <summary>
-    /// Group description/bio
-    /// </summary>
-    public string? GroupDescription { get; set; }
 
     public virtual DirectMessageGroup? DirectMessageGroup { get; set; }
 

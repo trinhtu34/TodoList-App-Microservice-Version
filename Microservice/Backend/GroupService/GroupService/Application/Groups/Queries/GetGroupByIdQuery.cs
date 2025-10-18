@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GroupService.Application.Groups.Queries;
 
-public record GetGroupByIdQuery(int GroupId, string UserId) : IQuery<GroupResponse>;
+public record GetGroupByIdQuery(int GroupId, string UserId) : IQuery<GroupResponseGetGroupByID>;
 
-public class GetGroupByIdQueryHandler : IRequestHandler<GetGroupByIdQuery, GroupResponse>
+public class GetGroupByIdQueryHandler : IRequestHandler<GetGroupByIdQuery, GroupResponseGetGroupByID>
 {
     private readonly GroupServiceDbContext _context;
 
@@ -17,7 +17,7 @@ public class GetGroupByIdQueryHandler : IRequestHandler<GetGroupByIdQuery, Group
         _context = context;
     }
 
-    public async Task<GroupResponse> Handle(GetGroupByIdQuery request, CancellationToken cancellationToken)
+    public async Task<GroupResponseGetGroupByID> Handle(GetGroupByIdQuery request, CancellationToken cancellationToken)
     {
         var group = await _context.GroupsRs
             .Include(g => g.GroupMembers)
@@ -40,7 +40,7 @@ public class GetGroupByIdQueryHandler : IRequestHandler<GetGroupByIdQuery, Group
             ))
             .ToList();
 
-        return new GroupResponse(
+        return new GroupResponseGetGroupByID(
             group.GroupId,
             group.GroupName,
             group.GroupAvatar,

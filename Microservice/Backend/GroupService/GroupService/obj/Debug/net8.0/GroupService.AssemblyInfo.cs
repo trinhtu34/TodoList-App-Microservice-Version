@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9792c22072339e198b1fc5c542c7f167ffd11d27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5739749a96cdae54429ab7abb6c6caf07ea2ce19")]
 [assembly: System.Reflection.AssemblyProductAttribute("GroupService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GroupService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -111,6 +111,8 @@ public partial class GroupServiceDbContext : DbContext
 
             entity.HasIndex(e => e.Role, "idx_role");
 
+            entity.HasIndex(e => new { e.UserId, e.IsActive }, "idx_user_active");
+
             entity.HasIndex(e => e.UserId, "idx_user_id");
 
             entity.Property(e => e.GroupId).HasColumnName("group_id");
@@ -138,6 +140,10 @@ public partial class GroupServiceDbContext : DbContext
                 .HasComment("When user left the group")
                 .HasColumnType("datetime")
                 .HasColumnName("left_at");
+            entity.Property(e => e.Nickname)
+                .HasMaxLength(100)
+                .HasComment("Custom nickname in this group")
+                .HasColumnName("nickname");
             entity.Property(e => e.Role)
                 .HasDefaultValueSql("'member'")
                 .HasColumnType("enum('owner','admin','member')")
@@ -155,6 +161,8 @@ public partial class GroupServiceDbContext : DbContext
             entity.ToTable("groups_r", tb => tb.HasComment("Stores both 1-1 conversations and group chats"));
 
             entity.HasIndex(e => e.IsActive, "idx_active");
+
+            entity.HasIndex(e => new { e.IsActive, e.LastMessageAt }, "idx_composite_list").IsDescending(false, true);
 
             entity.HasIndex(e => e.CreatedBy, "idx_created_by");
 

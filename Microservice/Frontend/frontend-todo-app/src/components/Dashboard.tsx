@@ -3,6 +3,9 @@ import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import TagManager from './TagManager';
+import InvitationList from './InvitationList';
+import InviteUserModal from './InviteUserModal';
+import GroupView from './GroupView';
 import { groupService } from '../services/groupService';
 import type { Group } from '../services/groupService';
 
@@ -11,6 +14,9 @@ const Dashboard: React.FC = () => {
   const navigate = useNavigate();
   const [activeView, setActiveView] = useState('inbox');
   const [groups, setGroups] = useState<Group[]>([]);
+  const [showInviteModal, setShowInviteModal] = useState(false);
+  const [invitingGroup, setInvitingGroup] = useState<Group | null>(null);
+  const [isInviting, setIsInviting] = useState(false);
 
   useEffect(() => {
     loadGroups();
@@ -36,6 +42,33 @@ const Dashboard: React.FC = () => {
 
   const handleSearch = (query: string) => {
     console.log('Search:', query);
+  };
+
+  const handleInviteUser = (group: Group) => {
+    setInvitingGroup(group);
+    setShowInviteModal(true);
+  };
+
+  const handleSendInvitation = async (email: string) => {
+    if (!invitingGroup) return;
+    setIsInviting(true);
+    try {
+      // Convert email to cognito_sub
+      const cognitoSub = await groupService.getUserByEmail(email);
+      
+      await groupService.createInvitation({
+        groupId: invitingGroup.groupId,
+        invitedUser: cognitoSub
+      });
+      setShowInviteModal(false);
+      setInvitingGroup(null);
+      alert('Invitation sent successfully!');
+    } catch (error) {
+      console.error('Failed to send invitation:', error);
+      alert('Failed to send invitation. User not found or error occurred.');
+    } finally {
+      setIsInviting(false);
+    }
   };
 
   return (
@@ -75,20 +108,40 @@ const Dashboard: React.FC = () => {
         <main className="flex-1 p-6">
           {activeView === 'filters' ? (
             <TagManager isPremium={user?.groups?.includes('Premium-user') || false} />
+          ) : activeView === 'invitations' ? (
+            <div className="bg-white rounded-lg shadow p-6">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Group Invitations</h2>
+              <InvitationList />
+            </div>
+          ) : activeView.startsWith('group-') ? (
+            <GroupView
+              groupId={parseInt(activeView.replace('group-', ''))}
+              onInviteClick={() => {
+                const group = groups.find(g => `group-${g.groupId}` === activeView);
+                if (group) handleInviteUser(group);
+              }}
+            />
           ) : (
             <div className="bg-white rounded-lg shadow p-6">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                {activeView.startsWith('group-') 
-                  ? groups.find(g => `group-${g.groupId}` === activeView)?.groupName || 'Group'
-                  : activeView.charAt(0).toUpperCase() + activeView.slice(1)
-                }
+                {activeView.charAt(0).toUpperCase() + activeView.slice(1)}
               </h2>
               <p className="text-gray-600">Chào mừng bạn đến với Todo App!</p>
-              <p className="text-sm text-gray-500 mt-2">Active view: {activeView}</p>
             </div>
           )}
         </main>
       </div>
+
+      <InviteUserModal
+        isOpen={showInviteModal}
+        onClose={() => {
+          setShowInviteModal(false);
+          setInvitingGroup(null);
+        }}
+        onSubmit={handleSendInvitation}
+        isLoading={isInviting}
+        groupName={invitingGroup?.groupName || ''}
+      />
     </div>
   );
 };

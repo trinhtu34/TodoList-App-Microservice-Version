@@ -5,7 +5,9 @@
 output
 !output/.gitkeep
 build
+
 .env
+secret.yaml
 
 Libs/TempTestCase*
 Libs/TempTestSuite*

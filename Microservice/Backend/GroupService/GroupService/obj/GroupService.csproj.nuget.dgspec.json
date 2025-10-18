@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AWSSDK.CognitoIdentityProvider": {
+              "target": "Package",
+              "version": "[3.7.400, )"
+            },
             "Amazon.Lambda.AspNetCoreServer": {
               "target": "Package",
               "version": "[9.0.2, )"

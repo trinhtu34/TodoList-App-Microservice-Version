@@ -1,0 +1,34 @@
+services:
+  authservice:
+    build:
+      context: ./AuthService/AuthService
+      dockerfile: Dockerfile
+    ports:
+      - "32770:8080"
+    env_file:
+      - ./AuthService/AuthService/.env
+    restart: always
+
+  tagservice:
+    build:
+      context: ./TagService/TagService
+      dockerfile: Dockerfile
+    ports:
+      - "32771:8080"
+    env_file:
+      - ./TagService/TagService/.env
+    restart: always
+
+  # groupservice:
+
+  # todoservice:
+  #   build:
+  #     context: ./ToDoService/ToDoService
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - ":8080"
+  #   env_file:
+  #     - ./TodoService/.env
+  #   restart: always
+
+  # attachmentservice:

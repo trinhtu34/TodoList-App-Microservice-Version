@@ -98,32 +98,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetTodoByIdQuery.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
-              "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
-              "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T19:48:11.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetTodosQuery.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
-              "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
-              "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAIA2wBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T17:12:06.232Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -240,10 +216,34 @@
               "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
               "RelativeToolTip": "ToDoService\\Application\\Todos\\Commands\\UpdateTodoCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-11T14:09:46.792Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetTodosQuery.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
+              "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
+              "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodosQuery.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA2wBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T17:12:06.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetTodoByIdQuery.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
+              "RelativeDocumentMoniker": "ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ToDoService\\ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
+              "RelativeToolTip": "ToDoService\\Application\\Todos\\Queries\\GetTodoByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T19:48:11.67Z"
             },
             {
               "$type": "Document",

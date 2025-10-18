@@ -14,6 +14,18 @@ public record GroupResponse(
     DateTime CreatedAt,
     DateTime? LastMessageAt,
     bool IsActive,
+    int MemberCount
+);
+public record GroupResponseGetGroupByID(
+    int GroupId,
+    string? GroupName,
+    string? GroupAvatar,
+    string? GroupDescription,
+    string GroupType,
+    string CreatedBy,
+    DateTime CreatedAt,
+    DateTime? LastMessageAt,
+    bool IsActive,
     int MemberCount,
     List<MemberResponse>? Members
 );

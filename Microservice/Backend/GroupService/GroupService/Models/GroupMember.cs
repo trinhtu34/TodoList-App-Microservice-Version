@@ -17,6 +17,11 @@ public partial class GroupMember
 
     public string? Role { get; set; }
 
+    /// <summary>
+    /// Custom nickname in this group
+    /// </summary>
+    public string? Nickname { get; set; }
+
     public DateTime? JoinedAt { get; set; }
 
     /// <summary>

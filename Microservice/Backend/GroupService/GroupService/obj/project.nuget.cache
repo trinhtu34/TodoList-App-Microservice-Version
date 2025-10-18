@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qruuelUMC/Y=",
+  "dgSpecHash": "yp8447Ekk7c=",
   "success": true,
   "projectFilePath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService\\GroupService\\GroupService.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\trinh\\.nuget\\packages\\amazon.lambda.core\\2.5.0\\amazon.lambda.core.2.5.0.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.1\\amazon.lambda.logging.aspnetcore.3.1.1.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.4\\amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512",
+    "C:\\Users\\trinh\\.nuget\\packages\\awssdk.cognitoidentityprovider\\3.7.400\\awssdk.cognitoidentityprovider.3.7.400.nupkg.sha512",
+    "C:\\Users\\trinh\\.nuget\\packages\\awssdk.core\\3.7.400\\awssdk.core.3.7.400.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
