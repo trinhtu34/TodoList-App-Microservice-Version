@@ -29,6 +29,19 @@ class TagService {
   async deleteTag(tagId: number): Promise<void> {
     await tagApi.delete(`/tag/${tagId}`);
   }
+
+  async getTagsForTodo(todoId: number): Promise<Tag[]> {
+    const response = await tagApi.get(`/tag/todo/${todoId}`);
+    return response.data;
+  }
+
+  async addTagToTodo(todoId: number, tagId: number): Promise<void> {
+    await tagApi.post(`/tag/todo/${todoId}`, { tagId });
+  }
+
+  async removeTagFromTodo(todoId: number, tagId: number): Promise<void> {
+    await tagApi.delete(`/tag/todo/${todoId}/tag/${tagId}`);
+  }
 }
 
 const tagServiceInstance = new TagService();

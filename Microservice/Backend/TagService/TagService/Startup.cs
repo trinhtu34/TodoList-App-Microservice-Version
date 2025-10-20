@@ -21,6 +21,7 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers();
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).Assembly));
 
         // if use old way to get connection string from env , then will be error . Because way to get connection string from appsetting is different from env 
         var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");

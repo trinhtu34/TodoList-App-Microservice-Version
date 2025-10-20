@@ -19,16 +19,24 @@ services:
       - ./TagService/TagService/.env
     restart: always
 
-  # groupservice:
+  groupservice:
+    build:
+      context: ./GroupService/GroupService
+      dockerfile: Dockerfile
+    ports:
+      - "32772:8080"
+    env_file:
+      - ./GroupService/GroupService/.env
+    restart: always
 
-  # todoservice:
-  #   build:
-  #     context: ./ToDoService/ToDoService
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - ":8080"
-  #   env_file:
-  #     - ./TodoService/.env
-  #   restart: always
+  todoservice:
+    build:
+      context: ./ToDoService/ToDoService
+      dockerfile: Dockerfile
+    ports:
+      - "32773:8080"
+    env_file:
+      - ./ToDoService/ToDoService/.env
+    restart: always
 
   # attachmentservice:

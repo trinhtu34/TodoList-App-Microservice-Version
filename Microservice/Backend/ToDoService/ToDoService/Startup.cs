@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
 using ToDoService.Models;
+using ToDoService.ServiceClients;
 
 namespace ToDoService;
 
@@ -13,9 +14,6 @@ public class Startup
     {
         Env.Load();
 
-        var builder = new ConfigurationBuilder()
-            .AddConfiguration(configuration)
-            .AddEnvironmentVariables();
         Configuration = configuration;
     }
 
@@ -25,31 +23,34 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers();
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).Assembly));
+
+        // if use old way to get connection string from env , then will be error . Because way to get connection string from appsetting is different from env 
+        var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings__DefaultConnection");
+
         services.AddDbContext<TodoServiceDbContext>(options =>
             options.UseMySql(
-                Configuration.GetConnectionString("DefaultConnection"),
-                ServerVersion.AutoDetect(Configuration.GetConnectionString("DefaultConnection"))
+                connectionString,
+                ServerVersion.AutoDetect(connectionString)
             ));
 
-        // Service Clients
-        services.AddHttpClient<ServiceClients.ITagServiceClient, ServiceClients.TagServiceClient>(client =>
-        {
-            client.BaseAddress = new Uri(Configuration["ServiceEndpoints:TagService"]);
-        });
+        // Register TagServiceClient for ITagServiceClient so handlers can resolve it
+        services.AddHttpClient<ITagServiceClient, TagServiceClient>();
 
         services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
-                var jwtSettings = Configuration.GetSection("JWT");
-                var awsSettings = Configuration.GetSection("AWS:Cognito");
+                var jwtIssuer = Environment.GetEnvironmentVariable("JWT__Issuer");
+                var jwtAudience = Environment.GetEnvironmentVariable("JWT__Audience");
+                var cognitoAuthority = Environment.GetEnvironmentVariable("AWS__Cognito__Authority");
 
-                options.Authority = awsSettings["Authority"];
-                options.Audience = jwtSettings["Audience"];
+                options.Authority = cognitoAuthority;
+                options.Audience = jwtAudience;
 
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuer = true,
-                    ValidIssuer = jwtSettings["Issuer"],
+                    ValidIssuer = jwtIssuer,
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
@@ -62,7 +63,8 @@ public class Startup
                         if (securityToken is JsonWebToken jwt)
                         {
                             var clientId = jwt.Claims?.FirstOrDefault(c => c.Type == "client_id")?.Value;
-                            return clientId == jwtSettings["Audience"];
+                            Console.WriteLine($"Validating audience - ClientId: {clientId}, Expected: {jwtAudience}");
+                            return clientId == jwtAudience;
                         }
                         return false;
                     }
@@ -101,10 +103,6 @@ public class Startup
                       .AllowCredentials();
             });
         });
-
-        services.AddLogging();
-
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Startup).Assembly));
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline

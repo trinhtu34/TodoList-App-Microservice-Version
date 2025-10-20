@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
-import Login from './components/Login';
-import Register from './components/Register';
-import Dashboard from './components/Dashboard';
-import ProtectedRoute from './components/ProtectedRoute';
+import { Login, Register, ProtectedRoute } from './components/auth';
+import { Dashboard } from './components/layout';
 import TestTailwind from './test-tailwind';
 
 function App() {

@@ -22,8 +22,8 @@ public class UpdateMemberSettingsCommandHandler : IRequestHandler<UpdateMemberSe
             .FirstOrDefaultAsync(m => m.GroupId == request.GroupId && m.UserId == request.UserId && m.IsActive == true, cancellationToken)
             ?? throw new Exception("Not a member");
 
-        //if (request.Nickname != null)
-        //    member.Nickname = request.Nickname;
+        if (request.Nickname != null)
+            member.Nickname = request.Nickname;
 
         if (request.IsMuted.HasValue)
             member.IsMuted = request.IsMuted.Value;

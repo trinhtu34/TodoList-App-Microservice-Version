@@ -31,13 +31,6 @@ public class CreateTodoCommandHandler : IRequestHandler<CreateTodoCommand, TodoR
 
     public async Task<TodoResponse> Handle(CreateTodoCommand request, CancellationToken cancellationToken)
     {
-        //if (request.GroupId.HasValue)
-        //{
-        //    var isMember = await _groupServiceClient.VerifyMembership(request.GroupId.Value, request.UserId);
-        //    if (!isMember)
-        //        throw new UnauthorizedAccessException("Not a member of this group");
-        //}
-
         var todo = new Todo
         {
             Description = request.Description,
