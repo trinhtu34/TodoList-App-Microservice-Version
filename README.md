@@ -1,35 +1,108 @@
-# Mục tiêu dự án 
+# 📋 Ứng Dụng Quản Lý Công Việc - Kiến Trúc Microservice
 
-Dự án này được tạo ra với mục đích để học Microservice , cùng với việc sử dụng AWS Services . Frontend hoàn toàn là Vide Coding .
+Ứng dụng full-stack quản lý công việc được xây dựng với kiến trúc microservice nhằm mục đích học tập.
 
-# Thông tin về dự án 
+## 🎯 Tổng Quan Dự Án
 
-Dự án này là một Todo list website , nhằm nhắc nhở người dùng làm các việc cần làm đã có , sử dụng AWS Services để thông báo đến tài khoản người dùng thông qua email đã đăng ký tài khoản , nhưng vẫn cố gắng giảm thiểu chi phí duy trì website nhưng vẫn đạt được trải nhiệm ổn định . Tương lai sẽ hướng app này giống với Slack. 
+**Mục tiêu**: Học kiến trúc microservice và tích hợp AWS service thông qua việc xây dựng ứng dụng todo thực tế.
 
-Các chức năng hiện có như sau : 
+**Tầm nhìn**: Phát triển thành nền tảng cộng tác giống Slack với tính năng chat và quản lý team.
 
-- Tạo và xác thực tài khoản người dùng bằng AWS Cognito
-- Tạo Tag chỉ cho Premium user 
+## 🚀 Tính Năng Hiện Tại
 
-Lộ trình các chức năng sẽ phát triển :
+- **Xác thực**: Đăng ký và đăng nhập với AWS Cognito
+- **Todo cá nhân**: Tạo, chỉnh sửa và quản lý task với tag
+- **Quản lý nhóm**: Tạo nhóm và mời thành viên qua email
+- **Todo nhóm**: Quản lý task cộng tác trong nhóm
+- **Hệ thống tag**: Premium user có thể tạo tag tùy chỉnh
+- **Phân quyền**: Quyền Owner/Admin/Member
 
-- Phát triển chức năng **Tạo nhóm** , **tạo Todo list cho nhóm** .
-- Người dùng có thể thao tác với Todo list , thêm bỏ tag khỏi Todo list.
-- Cho phép người dùng tải lên các Attachment kèm theo Todo list , đi kèm với tính năng Premium-user thì tải được nhiều Attachment hơn Normal-user
-- Sử dụng các AWS Services để **Notification tới người dùng riêng lẻ** , **Notification theo nhóm** khi tới hạn , ví dụ các services như : AWS Lambda , SNS , SQS , EventBridge
-- Phát triển chức năng **Chat nhóm** , **Chat 1-1** , sử dụng **ScyllaDB** cho việc lưu trữ dữ liệu Chat. Sử dụng ASP.NET Core + SignalR cho Websocket 
-- Tìm cách làm Notification cho hệ thống chat , ví dụ như có người nhắn tin thì sẽ có thông báo thông qua Web app giống Whatsapp.
-- Tối ưu hệ thống Logging , Monitoring .
+## 🏗️ Kiến Trúc
 
+### Frontend
+- **React + TypeScript**: UI hiện đại với tối ưu hiệu suất
+- **Tailwind CSS**: Thiết kế responsive
+- **Vite**: Development và build nhanh
 
-Kiến trúc hướng tới dài hạn : 
+### Backend
+- **4 Microservice**: Auth, Todo, Group, Tag service
+- **.NET Core**: Clean Architecture + CQRS pattern
+- **MySQL**: Database riêng cho mỗi service
+- **Docker**: Triển khai container
 
-- Phát triển backend theo hướng kiến trúc Clean Architecture. 
-- Sử dụng các Pattern như : CQRS.
-- Hướng tới các nguyên lý như : SOLID. 
-- Tối ưu chi phí AWS Services từ từ.
+### Hạ tầng
+- **AWS Cognito**: Xác thực người dùng
+- **Docker Compose**: Development local
 
+## 🚧 Lộ Trình Phát Triển
 
-Công việc hiện tại - Bắt đầu từ ngày 08/10
+### Giai đoạn 1 (Đang thực hiện)
+- ✅ Quản lý todo và nhóm cơ bản
+- ✅ Xác thực và phân quyền người dùng
+- ✅ Quản lý tag
+- 🔄 Làm hệ thống up file kèm theo todo
+- 🔄 Tính năng Chat trong nhóm và chat 1-1 dùng : SignalR + ScyllaDB + Redis
 
-- Phát triển tính năng Group
+### Giai đoạn 2 (Dự kiến)
+- 📧 **Hệ thống thông báo**: AWS Lambda + SES cho cảnh báo deadline
+- 📎 **File đính kèm**: Premium user có nhiều storage hơn
+- 🔍 **Tìm kiếm nâng cao**: Lọc và sắp xếp todo
+- **Tối ưu truy xuất**: Triển khai caching layer cho các tính năng bằng Redis
+
+### Giai đoạn 3 (Tương lai)
+- 📱 **Mobile app**: Phiên bản React Native
+- 📊 **Dashboard phân tích**: Thống kê sử dụng
+
+## 🛠️ Công Nghệ Sử Dụng
+
+| Thành phần | Công nghệ |
+|------------|-----------|
+| Frontend | React, TypeScript, Tailwind CSS |
+| Backend | .NET Core, Clean Architecture, CQRS |
+| Database | MySQL |
+| Xác thực | AWS Cognito |
+| Container | Docker |
+| Giám sát | CloudWatch (dự kiến) |
+
+## 🚀 Chạy ứng dụng ở Development Environment
+
+### Yêu cầu
+- Node.js 18+
+- .NET 8 SDK
+- Docker & Docker Compose
+- MySQL
+
+### Chạy Local
+```bash
+# Clone repository
+git clone <repo-url>
+cd TodoList-App-Microservice-Version
+
+# Khởi động backend service
+cd Microservice/Backend
+docker-compose up -d
+
+# Khởi động frontend
+cd ../Frontend/frontend-todo-app
+npm install
+npm run dev
+```
+
+### Truy cập ứng dụng
+- **Frontend**: http://localhost:5173
+- **Backend API**: http://localhost:32770-32773
+
+## 📁 Cấu Trúc Dự Án
+
+```
+├── Microservice/
+│   ├── Backend/
+│   │   ├── AuthService/          # Xác thực người dùng
+│   │   ├── TodoService/          # Thao tác CRUD todo
+│   │   ├── GroupService/         # Quản lý nhóm
+│   │   └── TagService/           # Quản lý tag
+│   └── Frontend/
+│       └── frontend-todo-app/    # Ứng dụng React
+├── k8s/                          # Config Kubernetes
+└── NotificationService/          # Hệ thống thông báo AWS (thiết kế)
+```
