@@ -22,7 +22,6 @@ public class GetTagsForTodoQueryHandler : IRequestHandler<GetTagsForTodoQuery, L
         return await _context.TodoTags
             .Where(tt => tt.TodoId == request.TodoId)
             .Include(tt => tt.Tag)
-            .Where(tt => tt.Tag.CognitoSub == request.CognitoSub)
             .Select(tt => new TagResponse
             {
                 TagId = tt.Tag.TagId,

@@ -4,12 +4,19 @@ import TodoModal from './TodoModal';
 import { todoService} from '../../services/todoService';
 import type { Todo } from '../../services/todoService';
 
+export interface Member {
+  userId: string;
+  nickname?: string;
+  role: string;
+}
+
 interface TodoViewProps {
   groupId?: number;
   title: string;
+  members?: Member[];
 }
 
-const TodoView: React.FC<TodoViewProps> = ({ groupId, title }) => {
+const TodoView: React.FC<TodoViewProps> = ({ groupId, title, members }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [editingTodo, setEditingTodo] = useState<Todo | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -63,17 +70,29 @@ const TodoView: React.FC<TodoViewProps> = ({ groupId, title }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow p-6">
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold text-gray-900">{title}</h2>
-        <button
-          onClick={() => setIsModalOpen(true)}
-          className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
-        >
-          + Add Todo
-        </button>
-      </div>
-      <TodoList groupId={groupId} onEdit={handleEdit} refreshTrigger={refreshKey} />
+    <div className={title ? "bg-white rounded-lg shadow p-6" : ""}>
+      {title && (
+        <div className="flex justify-between items-center mb-6">
+          <h2 className="text-2xl font-bold text-gray-900">{title}</h2>
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
+          >
+            + Add Todo
+          </button>
+        </div>
+      )}
+      {!title && (
+        <div className="flex justify-end mb-6">
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition-colors"
+          >
+            + Add Todo
+          </button>
+        </div>
+      )}
+      <TodoList groupId={groupId} onEdit={handleEdit} refreshTrigger={refreshKey} members={members} />
       <TodoModal
         isOpen={isModalOpen}
         onClose={handleCloseModal}

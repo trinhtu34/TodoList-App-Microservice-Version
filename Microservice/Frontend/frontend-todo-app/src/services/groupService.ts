@@ -100,4 +100,8 @@ export const memberService = {
     const response = await groupApi.get(`/groups/${groupId}/member`);
     return response.data;
   },
+
+  updateMemberSettings: async (groupId: number, nickname: string): Promise<void> => {
+    await groupApi.patch(`/groups/${groupId}/member/settings`, { nickname });
+  },
 };

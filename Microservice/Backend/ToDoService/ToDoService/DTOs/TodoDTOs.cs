@@ -10,6 +10,7 @@ namespace ToDoService.DTOs
         public DateTime? DueDate { get; set; }
         public DateTime? CreateAt { get; set; }
         public DateTime? UpdateAt { get; set; }
+        public string CognitoSub { get; set; } = string.Empty;
         public int? GroupId { get; set; }
         public string? AssignedTo { get; set; }
         public List<TagResponse> Tags { get; set; } = new List<TagResponse>();

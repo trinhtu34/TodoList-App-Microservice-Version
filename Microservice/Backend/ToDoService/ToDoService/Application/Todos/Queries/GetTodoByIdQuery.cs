@@ -40,6 +40,7 @@ public class GetTodoByIdQueryHandler : IRequestHandler<GetTodoByIdQuery, TodoRes
             DueDate = todo.DueDate,
             CreateAt = todo.CreateAt,
             UpdateAt = todo.UpdateAt,
+            CognitoSub = todo.CognitoSub,
             GroupId = todo.GroupId,
             AssignedTo = todo.AssignedTo,
             Tags = tags.Select(t => new TagResponse

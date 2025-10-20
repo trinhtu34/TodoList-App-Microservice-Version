@@ -48,31 +48,44 @@ const TodoTagManager: React.FC<TodoTagManagerProps> = ({ todoId, currentTags, on
     tag => !currentTags.some(ct => ct.tagId === tag.tagId)
   );
 
+  // Check if tag belongs to current user (can be removed)
+  const canRemoveTag = (tagId: number) => {
+    return allTags.some(t => t.tagId === tagId);
+  };
+
   return (
     <div className="flex flex-wrap gap-2 items-center">
-      {currentTags.map(tag => (
-        <span
-          key={tag.tagId}
-          className="inline-flex items-center px-2 py-1 rounded text-xs font-medium"
-          style={{ backgroundColor: tag.color + '20', color: tag.color }}
-        >
-          {tag.tagName}
-          <button
-            onClick={() => handleRemoveTag(tag.tagId)}
-            className="ml-1 hover:opacity-70"
+      {currentTags.map(tag => {
+        const isMyTag = canRemoveTag(tag.tagId);
+        return (
+          <span
+            key={tag.tagId}
+            className="inline-flex items-center px-2 py-1 rounded text-xs font-medium"
+            style={{ backgroundColor: tag.color + '20', color: tag.color }}
           >
-            ×
+            {tag.tagName}
+            {isMyTag && (
+              <button
+                onClick={() => handleRemoveTag(tag.tagId)}
+                className="ml-1 hover:opacity-70"
+                title="Remove tag"
+              >
+                ×
+              </button>
+            )}
+          </span>
+        );
+      })}
+      
+      {allTags.length > 0 && (
+        <div className="relative">
+          <button
+            onClick={() => setShowDropdown(!showDropdown)}
+            className="px-2 py-1 text-xs text-gray-600 hover:text-gray-900 border border-dashed border-gray-300 rounded hover:border-gray-400"
+          >
+            + Tag
           </button>
-        </span>
-      ))}
-      <div className="relative">
-        <button
-          onClick={() => setShowDropdown(!showDropdown)}
-          className="px-2 py-1 text-xs text-gray-600 hover:text-gray-900 border border-dashed border-gray-300 rounded hover:border-gray-400"
-        >
-          + Tag
-        </button>
-        {showDropdown && availableTags.length > 0 && (
+          {showDropdown && availableTags.length > 0 && (
           <div className="absolute z-10 mt-1 bg-white border rounded shadow-lg max-h-48 overflow-y-auto">
             {availableTags.map(tag => (
               <button
@@ -88,8 +101,9 @@ const TodoTagManager: React.FC<TodoTagManagerProps> = ({ todoId, currentTags, on
               </button>
             ))}
           </div>
-        )}
-      </div>
+          )}
+        </div>
+      )}
     </div>
   );
 };

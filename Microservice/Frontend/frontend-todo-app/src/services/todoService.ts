@@ -7,6 +7,7 @@ export interface Todo {
   dueDate?: string;
   createAt?: string;
   updateAt?: string;
+  cognitoSub?: string;
   groupId?: number;
   assignedTo?: string;
   tags: Array<{

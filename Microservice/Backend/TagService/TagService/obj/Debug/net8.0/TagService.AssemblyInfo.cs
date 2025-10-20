@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TagService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+536d9268272045be3c56a1a421f73d0657207c8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a949b6c75431fed25c05ea9e8e0c7ee856f53c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TagService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TagService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

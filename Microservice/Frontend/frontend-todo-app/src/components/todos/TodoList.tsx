@@ -2,14 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { todoService} from '../../services/todoService';
 import type { Todo } from '../../services/todoService';
 import TodoTagManager from './TodoTagManager';
+import type { Member } from './TodoView';
 
 interface TodoListProps {
   groupId?: number;
   onEdit: (todo: Todo) => void;
   refreshTrigger?: number;
+  members?: Member[];
 }
 
-const TodoList: React.FC<TodoListProps> = ({ groupId, onEdit, refreshTrigger }) => {
+const TodoList: React.FC<TodoListProps> = ({ groupId, onEdit, refreshTrigger, members }) => {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -21,6 +23,10 @@ const TodoList: React.FC<TodoListProps> = ({ groupId, onEdit, refreshTrigger }) 
     try {
       setLoading(true);
       const data = await todoService.getTodos(groupId);
+      console.log('Loaded todos:', data);
+      console.log('First todo cognitoSub:', data[0]?.cognitoSub);
+      console.log('Members:', members);
+      console.log('GroupId:', groupId);
       setTodos(data);
     } catch (error) {
       console.error('Failed to load todos:', error);
@@ -74,10 +80,15 @@ const TodoList: React.FC<TodoListProps> = ({ groupId, onEdit, refreshTrigger }) 
               <p className={`text-gray-900 ${todo.isDone ? 'line-through text-gray-500' : ''}`}>
                 {todo.description}
               </p>
+              {groupId && members && todo.cognitoSub && (
+                <p className="text-xs text-gray-600 mt-1">
+                  Created by: {members.find(m => m.userId === todo.cognitoSub)?.nickname || todo.cognitoSub.substring(0, 8)}
+                </p>
+              )}
               <div className="mt-2">
                 <TodoTagManager
                   todoId={todo.todoId}
-                  currentTags={todo.tags}
+                  currentTags={todo.tags || []}
                   onTagsChange={loadTodos}
                 />
               </div>

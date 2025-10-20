@@ -36,17 +36,20 @@ namespace TagService.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "PremiumOnly")]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<TagResponse>>> GetTags([FromQuery] int? groupId)
         {
             var cognitoSub = GetCognitoSub();
+            if (string.IsNullOrEmpty(cognitoSub))
+                return Ok(new List<TagResponse>()); // Return empty if no auth
+            
             var query = new GetTagsQuery(cognitoSub, groupId);
             var result = await _mediator.Send(query);
             return Ok(result);
         }
 
         [HttpGet("{id}")]
-        [Authorize(Policy = "PremiumOnly")]
+        [AllowAnonymous]
         public async Task<ActionResult<TagResponse>> GetTag(int id)
         {
             var cognitoSub = GetCognitoSub();
@@ -107,7 +110,7 @@ namespace TagService.Controllers
 
 
         [HttpGet("todo/{todoId}")]
-        [Authorize(Policy = "PremiumOnly")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<TagResponse>>> GetTagsForTodo(int todoId)
         {
             var cognitoSub = GetCognitoSub();
@@ -116,10 +119,8 @@ namespace TagService.Controllers
             return Ok(result);
         }
 
-
-
         [HttpDelete("cleanup/todo/{todoId}")]
-        [AllowAnonymous]
+        [Authorize]
         public async Task<IActionResult> RemoveTagsForTodo(int todoId)
         {
             var command = new RemoveTagsForTodoCommand(todoId);

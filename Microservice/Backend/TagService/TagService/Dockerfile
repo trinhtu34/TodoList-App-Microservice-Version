@@ -60,8 +60,10 @@ entrypoint ["dotnet", "TagService.dll"]
 
 # to build this dockerfile , you have to navigate to the root/tagservice folder and run the command below
 
+# cSpell:disable
 # docker build -t tagservice-image -f Dockerfile .
 # docker run -dit -p 32771:8080 --name tagservice-container tagservice-image
+# cSpell:enable
 
 # to stop the container , run the command below:
 # docker stop tagservice-container	
