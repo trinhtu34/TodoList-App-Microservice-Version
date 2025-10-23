@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\hub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\hub\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\huong_dan_backend_chat.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\huong_dan_backend_chat.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\services\\chatservicemvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\services\\chatservicemvp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\repositories\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\models\\chatmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\models\\chatmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\chatservice_signalr_version\\chatservice_signalr_version\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2C1D90E6-A84E-4081-9230-793A1165EC7D}|ChatService_SignalR_Version\\ChatService_SignalR_Version.csproj|solutionrelative:chatservice_signalr_version\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +50,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HUONG_DAN_BACKEND_CHAT.md",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\HUONG_DAN_BACKEND_CHAT.md",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\HUONG_DAN_BACKEND_CHAT.md",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\HUONG_DAN_BACKEND_CHAT.md",
+              "RelativeToolTip": "ChatService_SignalR_Version\\HUONG_DAN_BACKEND_CHAT.md",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-22T12:42:54.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Repositories\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Repositories\\IMessageRepository.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Repositories\\IMessageRepository.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Repositories\\IMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:45:46.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:26:27.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Repositories\\MessageRepository.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Repositories\\MessageRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T05:29:16.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatServiceMVP.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Services\\ChatServiceMVP.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Services\\ChatServiceMVP.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Services\\ChatServiceMVP.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Services\\ChatServiceMVP.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T03:49:28.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Services\\IChatService.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Services\\IChatService.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Services\\IChatService.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Services\\IChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:48:24.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChatModels.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Models\\ChatModels.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Models\\ChatModels.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Models\\ChatModels.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Models\\ChatModels.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T15:01:54.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Hub\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Hub\\ChatHub.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Hub\\ChatHub.cs",
+              "RelativeToolTip": "ChatService_SignalR_Version\\Hub\\ChatHub.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAcwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:51:04.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\appsettings.json",
+              "RelativeDocumentMoniker": "ChatService_SignalR_Version\\appsettings.json",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\appsettings.json",
+              "RelativeToolTip": "ChatService_SignalR_Version\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-21T17:01:02.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Program.cs",
               "RelativeDocumentMoniker": "ChatService_SignalR_Version\\Program.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\ChatService_SignalR_Version\\ChatService_SignalR_Version\\Program.cs",
               "RelativeToolTip": "ChatService_SignalR_Version\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T03:45:21.798Z",
               "EditorCaption": ""

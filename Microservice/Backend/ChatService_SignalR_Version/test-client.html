@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Test Client</title>
+    <script src="https://unpkg.com/@microsoft/signalr@latest/dist/browser/signalr.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .chat-box { border: 1px solid #ccc; height: 400px; overflow-y: scroll; padding: 10px; margin: 10px 0; }
+        .message { margin: 5px 0; padding: 5px; background: #f0f0f0; border-radius: 5px; }
+        .my-message { background: #007bff; color: white; text-align: right; }
+        .input-group { display: flex; margin: 10px 0; }
+        .input-group input { flex: 1; padding: 10px; margin-right: 10px; }
+        .input-group button { padding: 10px 20px; }
+        .status { padding: 10px; background: #e9ecef; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chat Test Client</h1>
+        
+        <div class="status" id="status">Disconnected</div>
+        
+        <div class="input-group">
+            <input type="text" id="chatId" placeholder="Chat ID (UUID)" value="550e8400-e29b-41d4-a716-446655440000">
+            <button onclick="joinChat()">Join Chat</button>
+            <button onclick="leaveChat()">Leave Chat</button>
+        </div>
+        
+        <div class="chat-box" id="chatBox"></div>
+        
+        <div class="input-group">
+            <input type="text" id="messageInput" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+        
+        <div class="input-group">
+            <input type="text" id="userId" placeholder="Your User ID" value="123e4567-e89b-12d3-a456-426614174000">
+            <button onclick="connect()">Connect</button>
+            <button onclick="disconnect()">Disconnect</button>
+        </div>
+    </div>
+
+    <script>
+        let connection = null;
+        let currentChatId = null;
+
+        async function connect() {
+            try {
+                connection = new signalR.HubConnectionBuilder()
+                    .withUrl("https://localhost:7001/chatHub") // Update with your API URL
+                    .build();
+
+                // Event handlers
+                connection.on("ReceiveMessage", (message) => {
+                    addMessage(`${message.userName}: ${message.content}`, false);
+                });
+
+                connection.on("UserJoined", (userId) => {
+                    addMessage(`User ${userId} joined the chat`, false, true);
+                });
+
+                connection.on("UserLeft", (userId) => {
+                    addMessage(`User ${userId} left the chat`, false, true);
+                });
+
+                connection.on("UserStartedTyping", (userId) => {
+                    updateStatus(`User ${userId} is typing...`);
+                });
+
+                connection.on("UserStoppedTyping", (userId) => {
+                    updateStatus("Connected");
+                });
+
+                connection.on("Error", (error) => {
+                    addMessage(`Error: ${error}`, false, true);
+                });
+
+                await connection.start();
+                updateStatus("Connected");
+                console.log("SignalR Connected");
+            } catch (err) {
+                console.error("Connection failed: ", err);
+                updateStatus("Connection failed");
+            }
+        }
+
+        async function disconnect() {
+            if (connection) {
+                await connection.stop();
+                updateStatus("Disconnected");
+            }
+        }
+
+        async function joinChat() {
+            if (!connection) {
+                alert("Please connect first");
+                return;
+            }
+
+            const chatId = document.getElementById("chatId").value;
+            if (!chatId) {
+                alert("Please enter a chat ID");
+                return;
+            }
+
+            try {
+                await connection.invoke("JoinChat", chatId);
+                currentChatId = chatId;
+                updateStatus(`Joined chat: ${chatId}`);
+            } catch (err) {
+                console.error("Join chat failed: ", err);
+            }
+        }
+
+        async function leaveChat() {
+            if (!connection || !currentChatId) return;
+
+            try {
+                await connection.invoke("LeaveChat", currentChatId);
+                updateStatus("Left chat");
+                currentChatId = null;
+            } catch (err) {
+                console.error("Leave chat failed: ", err);
+            }
+        }
+
+        async function sendMessage() {
+            const messageInput = document.getElementById("messageInput");
+            const message = messageInput.value.trim();
+            
+            if (!connection || !currentChatId || !message) return;
+
+            try {
+                await connection.invoke("SendMessage", currentChatId, message, 1);
+                addMessage(`You: ${message}`, true);
+                messageInput.value = "";
+            } catch (err) {
+                console.error("Send message failed: ", err);
+            }
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === "Enter") {
+                sendMessage();
+            }
+        }
+
+        function addMessage(message, isMyMessage = false, isSystem = false) {
+            const chatBox = document.getElementById("chatBox");
+            const messageDiv = document.createElement("div");
+            messageDiv.className = `message ${isMyMessage ? 'my-message' : ''} ${isSystem ? 'system-message' : ''}`;
+            messageDiv.textContent = message;
+            chatBox.appendChild(messageDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function updateStatus(status) {
+            document.getElementById("status").textContent = status;
+        }
+
+        // Auto-connect on page load
+        window.onload = function() {
+            connect();
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  # ScyllaDB
+  scylla-node1:
+    image: scylladb/scylla:latest
+    container_name: chat-scylla-1
+    # Must have -reactre-backend=epoll , because My WSL is missing AIO 
+    command: --developer-mode=1 --reactor-backend=epoll
+    ports:
+      - "9042:9042"
+    volumes:
+      - scylla-chat-data1:/var/lib/scylla
+    networks:
+      - chat-network
+    restart: unless-stopped
+
+  scylla-node2:
+    image: scylladb/scylla:latest
+    # Must have -reactre-backend=epoll , because My WSL is missing AIO 
+    container_name: chat-scylla-2
+    command: --seeds=scylla-node1 --developer-mode=1 --reactor-backend=epoll
+    volumes:
+      - scylla-chat-data2:/var/lib/scylla
+    networks:
+      - chat-network
+    restart: unless-stopped
+    depends_on:
+      - scylla-node1
+
+  # Redis
+  redis:
+    image: redis:latest
+    container_name: chat-redis
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis-chat-data:/data
+    networks:
+      - chat-network
+    restart: unless-stopped
+
+  # Redis Commander (GUI)
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: redis-gui
+    ports:
+      - "8081:8081"
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+    networks:
+      - chat-network
+    depends_on:
+      - redis
+
+volumes:
+  scylla-chat-data1:
+  scylla-chat-data2:
+  redis-chat-data:
+
+networks:
+  chat-network:
+    driver: bridge

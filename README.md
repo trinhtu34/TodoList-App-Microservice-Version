@@ -50,7 +50,6 @@
 - **Tối ưu truy xuất**: Triển khai caching layer cho các tính năng bằng Redis
 
 ### Giai đoạn 3 (Tương lai)
-- 📱 **Mobile app**: Phiên bản React Native
 - 📊 **Dashboard phân tích**: Thống kê sử dụng
 
 ## 🛠️ Công Nghệ Sử Dụng
@@ -59,7 +58,7 @@
 |------------|-----------|
 | Frontend | React, TypeScript, Tailwind CSS |
 | Backend | .NET Core, Clean Architecture, CQRS |
-| Database | MySQL |
+| Database | MySQL , ScyllaDB|
 | Xác thực | AWS Cognito |
 | Container | Docker |
 | Giám sát | CloudWatch (dự kiến) |
@@ -70,7 +69,7 @@
 - Node.js 18+
 - .NET 8 SDK
 - Docker & Docker Compose
-- MySQL
+- MySQL , SQLElection ( đây là 1 open source tool , dùng để kết nối với ScyllaDB cho tiện , tool này dùng được rất nhiều DB từ NoSQL tới SQL ).
 
 ### Chạy Local
 ```bash
@@ -95,7 +94,7 @@ npm run dev
 ## 📁 Cấu Trúc Dự Án
 
 ```
-├── Microservice/
+├── Microservice/ 
 │   ├── Backend/
 │   │   ├── AuthService/          # Xác thực người dùng
 │   │   ├── TodoService/          # Thao tác CRUD todo
