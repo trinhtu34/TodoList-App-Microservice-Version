@@ -18,7 +18,7 @@ public class Startup
             .AddEnvironmentVariables();
 
         Configuration = builder.Build();
-    }
+    }   
 
     public IConfiguration Configuration { get; }
 

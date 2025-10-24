@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {}
+  },
+  "projects": {
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+        "projectName": "Infrastructure.Persistence",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj": {
+                "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj"
+              },
+              "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

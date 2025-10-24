@@ -3,6 +3,9 @@ using StackExchange.Redis;
 using ChatService_SignalR_Version.Hub;
 using ChatService_SignalR_Version.Services;
 using ChatService_SignalR_Version.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.IdentityModel.JsonWebTokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
