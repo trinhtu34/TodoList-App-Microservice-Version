@@ -1,42 +1,74 @@
-# Katalon Test Suite
-# Compiled class file
-*.class
-*.swp
-output
-!output/.gitkeep
-build
-
+# Sensitive files
 .env
-secret.yaml
+.env.*
+*.env
+appsettings.Production.json
+appsettings.Staging.json
 
-Libs/TempTestCase*
-Libs/TempTestSuite*
-bin/lib/TempTestCase*
-Reports/
-\.classpath
-\.project
-\.settings/
-bin/lib/
-Libs/
-.svn/
-.gradle
+# AWS credentials
+aws-credentials
+.aws/
+*.pem
+*.key
 
-# Log file
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Copilot chat sessions (contains sensitive data)
+**/copilot-chat/**
+**/.vs/**/copilot-chat/**
+
+# Logs
+logs
 *.log
+npm-debug.log*
 
-# BlueJ files
-*.ctxt
+# Runtime data
+pids
+*.pid
+*.seed
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Coverage directory used by tools like istanbul
+coverage
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Dependency directories
+node_modules/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
