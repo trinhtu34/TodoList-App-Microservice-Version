@@ -1,4 +1,5 @@
 using Application.Common;
+using Domain.Repositories;
 using MediatR;
 
 namespace Application.Features.Users.Queries;
@@ -20,7 +21,4 @@ public class GetUserByEmailQueryHandler : IRequestHandler<GetUserByEmailQuery, s
     }
 }
 
-public interface IUserService
-{
-    Task<string> GetUserByEmailAsync(string email, CancellationToken cancellationToken = default);
-}
+    
