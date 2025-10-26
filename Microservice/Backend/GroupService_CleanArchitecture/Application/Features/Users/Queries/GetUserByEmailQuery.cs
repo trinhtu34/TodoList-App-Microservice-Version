@@ -17,8 +17,7 @@ public class GetUserByEmailQueryHandler : IRequestHandler<GetUserByEmailQuery, s
 
     public async Task<string> Handle(GetUserByEmailQuery request, CancellationToken cancellationToken)
     {
+
         return await _userService.GetUserByEmailAsync(request.Email, cancellationToken);
     }
 }
-
-    

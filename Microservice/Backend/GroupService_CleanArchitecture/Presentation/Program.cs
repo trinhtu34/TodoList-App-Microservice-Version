@@ -1,14 +1,11 @@
 using Application.Features.Groups.Commands;
-using Application.Features.Users.Queries;
 using Domain.Repositories;
 using Infrastructure.Persistence.Data;
 using Infrastructure.Persistence.Repositories;
-using Infrastructure.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using DotNetEnv;
 
 Env.Load();
@@ -28,6 +25,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         var jwtIssuer = builder.Configuration["JWT:Issuer"] ?? Environment.GetEnvironmentVariable("JWT__Issuer");
         var jwtAudience = builder.Configuration["JWT:Audience"] ?? Environment.GetEnvironmentVariable("JWT__Audience");
         var cognitoAuthority = builder.Configuration["AWS:Cognito:Authority"] ?? Environment.GetEnvironmentVariable("AWS__Cognito__Authority");
+
+        if (string.IsNullOrEmpty(cognitoAuthority))
+            throw new InvalidOperationException("Cognito Authority is required");
 
         options.Authority = cognitoAuthority;
         options.Audience = jwtAudience;
@@ -107,11 +107,15 @@ builder.Services.AddScoped<IGroupInvitationRepository, GroupInvitationRepository
 builder.Services.AddScoped<IDirectMessageRepository, DirectMessageRepository>();
 
 // Services
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<Domain.Repositories.IUserService, Infrastructure.Persistence.Repositories.UserService>();
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add Health Checks
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<GroupServiceDbContext>();
 
 var app = builder.Build();
 
@@ -132,5 +136,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Map Health Check endpoint
+app.MapHealthChecks("/health");
 
 app.Run();

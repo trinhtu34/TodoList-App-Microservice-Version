@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yz11WCFEQl8=",
+  "dgSpecHash": "m3PsLsd2TWc=",
   "success": true,
-  "projectFilePath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trinh\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

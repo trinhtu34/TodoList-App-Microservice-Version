@@ -13,7 +13,7 @@ public interface IChatService
     Task<ChatMessage?> GetMessageAsync(Guid chatId, Guid messageId);
 
 }
-public class ChatServiceMVP : IChatService
+public class ChatServiceMVP
 {
     private readonly IMessageRepository _messageRepo;
     private readonly IHubContext<ChatHub> _hubContext;

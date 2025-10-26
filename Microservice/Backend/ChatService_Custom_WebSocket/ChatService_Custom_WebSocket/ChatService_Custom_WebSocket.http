@@ -1,6 +1,0 @@
-@ChatService_Custom_WebSocket_HostAddress = http://localhost:5053
-
-GET {{ChatService_Custom_WebSocket_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

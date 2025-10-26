@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AWSSDK.CognitoIdentityProvider/4.0.3.11": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[4.0.1.2, 5.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.CognitoIdentityProvider.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.CognitoIdentityProvider.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Core/4.0.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FluentValidation/11.9.0": {
         "type": "package",
         "compile": {
@@ -1034,6 +1063,61 @@
     }
   },
   "libraries": {
+    "AWSSDK.CognitoIdentityProvider/4.0.3.11": {
+      "sha512": "sPJBTibwieIxf05YC59t13/cMkpx10uyU5W7mz2jgMXRJE7Xq+dSO0Og+rBW8DTWeADgoscy39ss9RblUVnVxw==",
+      "type": "package",
+      "path": "awssdk.cognitoidentityprovider/4.0.3.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.CognitoIdentityProvider.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.cognitoidentityprovider.4.0.3.11.nupkg.sha512",
+        "awssdk.cognitoidentityprovider.nuspec",
+        "images/AWSLogo.png",
+        "lib/net472/AWSSDK.CognitoIdentityProvider.dll",
+        "lib/net472/AWSSDK.CognitoIdentityProvider.pdb",
+        "lib/net472/AWSSDK.CognitoIdentityProvider.xml",
+        "lib/net8.0/AWSSDK.CognitoIdentityProvider.dll",
+        "lib/net8.0/AWSSDK.CognitoIdentityProvider.pdb",
+        "lib/net8.0/AWSSDK.CognitoIdentityProvider.xml",
+        "lib/netcoreapp3.1/AWSSDK.CognitoIdentityProvider.dll",
+        "lib/netcoreapp3.1/AWSSDK.CognitoIdentityProvider.pdb",
+        "lib/netcoreapp3.1/AWSSDK.CognitoIdentityProvider.xml",
+        "lib/netstandard2.0/AWSSDK.CognitoIdentityProvider.dll",
+        "lib/netstandard2.0/AWSSDK.CognitoIdentityProvider.pdb",
+        "lib/netstandard2.0/AWSSDK.CognitoIdentityProvider.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Core/4.0.1.2": {
+      "sha512": "UZfo7mgRdO58urAfhiwTAqVAPNJreRyJi7LR2V8yYN/LEgXjhW8mWsA3FYuPfagVmGWulCHF+8UhivpytB2BDA==",
+      "type": "package",
+      "path": "awssdk.core/4.0.1.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.4.0.1.2.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "images/AWSLogo.png",
+        "lib/net472/AWSSDK.Core.dll",
+        "lib/net472/AWSSDK.Core.pdb",
+        "lib/net472/AWSSDK.Core.xml",
+        "lib/net8.0/AWSSDK.Core.dll",
+        "lib/net8.0/AWSSDK.Core.pdb",
+        "lib/net8.0/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
     "FluentValidation/11.9.0": {
       "sha512": "VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
       "type": "package",
@@ -2627,6 +2711,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AWSSDK.CognitoIdentityProvider >= 4.0.3.11",
       "Application >= 1.0.0",
       "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.0",
@@ -2642,11 +2727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+      "projectUniqueName": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
       "projectName": "Infrastructure.Persistence",
-      "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
+      "projectPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Infrastructure.Persistence.csproj",
       "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
-      "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\obj\\",
+      "outputPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2667,11 +2752,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj": {
-              "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj"
+            "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Application.csproj": {
+              "projectPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Application.csproj"
             },
-            "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj"
+            "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2692,6 +2777,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AWSSDK.CognitoIdentityProvider": {
+            "target": "Package",
+            "version": "[4.0.3.11, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.0, )"

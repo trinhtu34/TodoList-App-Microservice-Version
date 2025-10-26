@@ -11,3 +11,15 @@ D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backen
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.pdb
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\bin\Debug\net8.0\Domain.dll
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\bin\Debug\net8.0\Domain.pdb
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.dll
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\Domain.pdb
+D:\.vs\ToDoListApplication\GroupService_CleanArchitecture\Domain\obj\Debug\net8.0\ref\Domain.dll

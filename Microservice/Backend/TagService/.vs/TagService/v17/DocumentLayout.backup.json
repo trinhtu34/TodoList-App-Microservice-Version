@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagService\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\.env.example||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\application\\todotags\\queries\\gettagsfortodoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\application\\tags\\queries\\gettagbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\application\\tags\\queries\\gettagbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\dtos\\tagdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\tagservice\\tagservice\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0A3F0B60-3B5C-3FAD-956F-51B767CCB1A9}|TagService\\TagService.csproj|solutionrelative:tagservice\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +62,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": ".env.example",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\.env.example",
+              "RelativeDocumentMoniker": "TagService\\.env.example",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\.env.example",
+              "RelativeToolTip": "TagService\\.env.example",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-25T01:31:57.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GetTagsForTodoQuery.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Application\\TodoTags\\Queries\\GetTagsForTodoQuery.cs",
               "RelativeDocumentMoniker": "TagService\\Application\\TodoTags\\Queries\\GetTagsForTodoQuery.cs",
@@ -74,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GetTagsQuery.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Application\\Tags\\Queries\\GetTagsQuery.cs",
               "RelativeDocumentMoniker": "TagService\\Application\\Tags\\Queries\\GetTagsQuery.cs",
@@ -86,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GetTagByIdQuery.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Application\\Tags\\Queries\\GetTagByIdQuery.cs",
               "RelativeDocumentMoniker": "TagService\\Application\\Tags\\Queries\\GetTagByIdQuery.cs",
@@ -110,15 +126,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Dockerfile",
               "RelativeDocumentMoniker": "TagService\\Dockerfile",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Dockerfile",
               "RelativeToolTip": "TagService\\Dockerfile",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-05T18:40:50.695Z"
+              "WhenOpened": "2025-10-05T18:40:50.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -176,33 +193,32 @@
               "RelativeDocumentMoniker": "TagService\\Controllers\\TagController.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Controllers\\TagController.cs",
               "RelativeToolTip": "TagService\\Controllers\\TagController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowC8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T14:22:43.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": ".env",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\.env",
               "RelativeDocumentMoniker": "TagService\\.env",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\.env",
               "RelativeToolTip": "TagService\\.env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-05T12:14:03.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T12:14:03.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Startup.cs",
               "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Startup.cs",
               "RelativeDocumentMoniker": "TagService\\Startup.cs",
               "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\TagService\\TagService\\Startup.cs",
               "RelativeToolTip": "TagService\\Startup.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAwwFoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T12:11:05.339Z"
             }

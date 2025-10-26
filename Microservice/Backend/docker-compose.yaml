@@ -21,12 +21,12 @@ services:
 
   groupservice:
     build:
-      context: ./GroupService/GroupService
+      context: ./GroupService_CleanArchitecture
       dockerfile: Dockerfile
     ports:
       - "32772:8080"
     env_file:
-      - ./GroupService/GroupService/.env
+      - ./GroupService_CleanArchitecture/Presentation/.env
     restart: always
 
   todoservice:

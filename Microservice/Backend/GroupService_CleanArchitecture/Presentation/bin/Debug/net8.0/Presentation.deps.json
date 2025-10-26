@@ -9,8 +9,8 @@
       "Presentation/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Domain": "1.0.0",
           "DotNetEnv": "3.1.1",
-          "Infrastructure": "1.0.0",
           "Infrastructure.Persistence": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Swashbuckle.AspNetCore": "6.6.2",
@@ -20,22 +20,22 @@
           "Presentation.dll": {}
         }
       },
-      "AWSSDK.CognitoIdentityProvider/3.7.300": {
+      "AWSSDK.CognitoIdentityProvider/4.0.3.11": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.300"
+          "AWSSDK.Core": "4.0.1.2"
         },
         "runtime": {
           "lib/net8.0/AWSSDK.CognitoIdentityProvider.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.300.0"
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.3.11"
           }
         }
       },
-      "AWSSDK.Core/3.7.300": {
+      "AWSSDK.Core/4.0.1.2": {
         "runtime": {
           "lib/net8.0/AWSSDK.Core.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.300.0"
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.1.2"
           }
         }
       },
@@ -1419,21 +1419,9 @@
           }
         }
       },
-      "Infrastructure/1.0.0": {
-        "dependencies": {
-          "AWSSDK.CognitoIdentityProvider": "3.7.300",
-          "Application": "1.0.0",
-          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
-        },
-        "runtime": {
-          "Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Infrastructure.Persistence/1.0.0": {
         "dependencies": {
+          "AWSSDK.CognitoIdentityProvider": "4.0.3.11",
           "Application": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
@@ -1456,19 +1444,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AWSSDK.CognitoIdentityProvider/3.7.300": {
+    "AWSSDK.CognitoIdentityProvider/4.0.3.11": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Or+CTWVQcsOrn6Q4BZETw3k2qocByxaVL2SmuLTDQFjB6GcUtMSgjTcietxnnXwsQJnD4DNg4Z5r3Uh0SlstYw==",
-      "path": "awssdk.cognitoidentityprovider/3.7.300",
-      "hashPath": "awssdk.cognitoidentityprovider.3.7.300.nupkg.sha512"
+      "sha512": "sha512-sPJBTibwieIxf05YC59t13/cMkpx10uyU5W7mz2jgMXRJE7Xq+dSO0Og+rBW8DTWeADgoscy39ss9RblUVnVxw==",
+      "path": "awssdk.cognitoidentityprovider/4.0.3.11",
+      "hashPath": "awssdk.cognitoidentityprovider.4.0.3.11.nupkg.sha512"
     },
-    "AWSSDK.Core/3.7.300": {
+    "AWSSDK.Core/4.0.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Sf6Y3Ip44LUnTsFK2lz5heMThQQ4eYqN2u1xF/jA5K6uiXUeIHV4ISGb/reQ4MEOejiD15e+dtYy3Zebn4yXLw==",
-      "path": "awssdk.core/3.7.300",
-      "hashPath": "awssdk.core.3.7.300.nupkg.sha512"
+      "sha512": "sha512-UZfo7mgRdO58urAfhiwTAqVAPNJreRyJi7LR2V8yYN/LEgXjhW8mWsA3FYuPfagVmGWulCHF+8UhivpytB2BDA==",
+      "path": "awssdk.core/4.0.1.2",
+      "hashPath": "awssdk.core.4.0.1.2.nupkg.sha512"
     },
     "DotNetEnv/3.1.1": {
       "type": "package",
@@ -2421,11 +2409,6 @@
       "sha512": ""
     },
     "Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

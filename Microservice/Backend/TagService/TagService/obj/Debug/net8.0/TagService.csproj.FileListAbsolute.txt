@@ -277,7 +277,6 @@ D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backen
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\TagService\TagService\obj\Debug\net8.0\TagService.AssemblyInfo.cs
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\TagService\TagService\obj\Debug\net8.0\TagService.csproj.CoreCompileInputs.cache
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\TagService\TagService\obj\Debug\net8.0\TagService.MvcApplicationPartsAssemblyInfo.cache
-D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\TagService\TagService\obj\Debug\net8.0\TagService.sourcelink.json
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\TagService\TagService\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\TagService\TagService\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\.vs\ToDoListApplication\TodoList-App-Microservice-Version\Microservice\Backend\TagService\TagService\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

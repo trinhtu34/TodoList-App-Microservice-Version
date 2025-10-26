@@ -59,7 +59,7 @@ public class CreateInvitationCommandHandler : IRequestHandler<CreateInvitationCo
             CreatedAt = DateTime.UtcNow,
             ExpiresAt = DateTime.UtcNow.AddDays(7)
         };
-        _invitationRepository.AddAsync(invitation, cancellationToken);
+        await _invitationRepository.AddAsync(invitation, cancellationToken);
         return new InvitationResponse(
             invitation.InvitationId,
             invitation.GroupId,

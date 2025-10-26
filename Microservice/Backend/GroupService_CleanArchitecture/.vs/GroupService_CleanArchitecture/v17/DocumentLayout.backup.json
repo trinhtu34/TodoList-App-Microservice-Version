@@ -1,49 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\",
+  "WorkspaceRootPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\invitation\\commands\\declineinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\invitation\\commands\\declineinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\infrastructure.persistence\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|solutionrelative:infrastructure.persistence\\repositories\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\invitation\\commands\\createinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\invitation\\commands\\createinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\invitation\\commands\\acceptinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\invitation\\commands\\acceptinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\updatemembersettingscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\updatemembersettingscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\removemembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\removemembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\leavegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\leavegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\updatememberrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\updatememberrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\application\\features\\users\\queries\\getuserbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\users\\queries\\getuserbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\users\\queries\\getuserbyemailquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\infrastructure.persistence\\repositories\\groupinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05A416D0-9AFA-4E17-A0CE-FEC4A53DF18B}|Domain\\Domain.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\domain\\repositories\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A416D0-9AFA-4E17-A0CE-FEC4A53DF18B}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\infrastructure.persistence\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|solutionrelative:infrastructure.persistence\\repositories\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\infrastructure.persistence\\repositories\\groupmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|solutionrelative:infrastructure.persistence\\repositories\\groupmemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A416D0-9AFA-4E17-A0CE-FEC4A53DF18B}|Domain\\Domain.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\domain\\domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{05A416D0-9AFA-4E17-A0CE-FEC4A53DF18B}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|solutionrelative:presentation\\presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\infrastructure.persistence\\repositories\\directmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|solutionrelative:infrastructure.persistence\\repositories\\directmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F2E440-2F88-4BE6-992B-A30C7E0744ED}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\invitation\\commands\\declineinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\invitation\\commands\\declineinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\invitation\\commands\\createinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\invitation\\commands\\createinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\invitation\\commands\\acceptinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\invitation\\commands\\acceptinvitationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\updatemembersettingscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\updatemembersettingscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\removemembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\removemembercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\leavegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\leavegroupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\application\\features\\members\\commands\\updatememberrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2381B0F7-F4D8-4FA7-B033-1CD3456E4745}|Application\\Application.csproj|solutionrelative:application\\features\\members\\commands\\updatememberrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\infrastructure.persistence\\repositories\\groupinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DA11270-1BA6-441D-807E-F474031A3399}|Infrastructure.Persistence\\Infrastructure.Persistence.csproj|solutionrelative:infrastructure.persistence\\repositories\\groupinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05A416D0-9AFA-4E17-A0CE-FEC4A53DF18B}|Domain\\Domain.csproj|d:\\.vs\\todolistapplication\\todolist-app-microservice-version\\microservice\\backend\\groupservice_cleanarchitecture\\domain\\repositories\\igroupinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05A416D0-9AFA-4E17-A0CE-FEC4A53DF18B}|Domain\\Domain.csproj|d:\\.vs\\todolistapplication\\groupservice_cleanarchitecture\\domain\\repositories\\igroupinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05A416D0-9AFA-4E17-A0CE-FEC4A53DF18B}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\igroupinvitationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,108 +86,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Presentation\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\GroupController.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Presentation\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\UserService.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Persistence\\Repositories\\UserService.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\UserService.cs",
+              "RelativeToolTip": "Infrastructure.Persistence\\Repositories\\UserService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T17:05:42.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateInvitationCommand.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T17:03:46.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AcceptInvitationCommand.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T17:03:45.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LeaveGroupCommand.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T17:00:10.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateMemberSettingsCommand.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T16:59:58.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateMemberRoleCommand.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T16:59:55.01Z",
+              "WhenOpened": "2025-10-24T18:26:14.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RemoveMemberCommand.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
+              "Title": "GroupMemberRepository.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupMemberRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Persistence\\Repositories\\GroupMemberRepository.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupMemberRepository.cs",
+              "RelativeToolTip": "Infrastructure.Persistence\\Repositories\\GroupMemberRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T16:59:51.738Z",
+              "WhenOpened": "2025-10-24T18:25:55.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Persistence\\Repositories\\GroupRepository.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupRepository.cs",
+              "RelativeToolTip": "Infrastructure.Persistence\\Repositories\\GroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T18:25:53.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Domain",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T18:21:49.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Repositories\\IUserService.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IUserService.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Repositories\\IUserService.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T18:19:38.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Presentation",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Presentation\\Presentation.csproj",
+              "RelativeDocumentMoniker": "Presentation\\Presentation.csproj",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Presentation\\Presentation.csproj",
+              "RelativeToolTip": "Presentation\\Presentation.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-24T18:19:08.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAArwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:34:23.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateInvitationCommand.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Invitation\\Commands\\CreateInvitationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:03:46.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AcceptInvitationCommand.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Invitation\\Commands\\AcceptInvitationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:03:45.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LeaveGroupCommand.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Members\\Commands\\LeaveGroupCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:00:10.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GetUserByEmailQuery.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Users\\Queries\\GetUserByEmailQuery.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Users\\Queries\\GetUserByEmailQuery.cs",
               "RelativeDocumentMoniker": "Application\\Features\\Users\\Queries\\GetUserByEmailQuery.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Users\\Queries\\GetUserByEmailQuery.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Users\\Queries\\GetUserByEmailQuery.cs",
               "RelativeToolTip": "Application\\Features\\Users\\Queries\\GetUserByEmailQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-24T16:55:43.953Z",
               "EditorCaption": ""
@@ -163,41 +230,98 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GroupInvitationRepository.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
-              "RelativeToolTip": "Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDgAAAAIAAAAAAAAAA==",
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Presentation\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\GroupController.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Presentation\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T16:42:03.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T17:05:42.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DeclineInvitationCommand.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
-              "RelativeToolTip": "Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "UpdateMemberSettingsCommand.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Members\\Commands\\UpdateMemberSettingsCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T16:39:56.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T16:59:58.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateMemberRoleCommand.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Members\\Commands\\UpdateMemberRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:59:55.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DirectMessageRepository.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\DirectMessageRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Persistence\\Repositories\\DirectMessageRepository.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\DirectMessageRepository.cs",
+              "RelativeToolTip": "Infrastructure.Persistence\\Repositories\\DirectMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T17:34:13.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RemoveMemberCommand.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Members\\Commands\\RemoveMemberCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:59:51.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GroupInvitationRepository.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
+              "RelativeToolTip": "Infrastructure.Persistence\\Repositories\\GroupInvitationRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:42:03.706Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "DeclineInvitationCommand.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
+              "RelativeToolTip": "Application\\Features\\Invitation\\Commands\\DeclineInvitationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:39:56.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IGroupInvitationRepository.cs",
-              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Repositories\\IGroupInvitationRepository.cs",
+              "DocumentMoniker": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Repositories\\IGroupInvitationRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Repositories\\IGroupInvitationRepository.cs",
-              "ToolTip": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Repositories\\IGroupInvitationRepository.cs",
+              "ToolTip": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Repositories\\IGroupInvitationRepository.cs",
               "RelativeToolTip": "Domain\\Repositories\\IGroupInvitationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T16:41:56.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T16:41:56.029Z"
             }
           ]
         }

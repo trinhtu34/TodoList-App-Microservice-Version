@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "z3hYlFZNHAQ=",
+  "dgSpecHash": "7ooCEAohies=",
   "success": true,
-  "projectFilePath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Presentation\\Presentation.csproj",
+  "projectFilePath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\trinh\\.nuget\\packages\\awssdk.cognitoidentityprovider\\3.7.300\\awssdk.cognitoidentityprovider.3.7.300.nupkg.sha512",
-    "C:\\Users\\trinh\\.nuget\\packages\\awssdk.core\\3.7.300\\awssdk.core.3.7.300.nupkg.sha512",
+    "C:\\Users\\trinh\\.nuget\\packages\\awssdk.cognitoidentityprovider\\4.0.3.11\\awssdk.cognitoidentityprovider.4.0.3.11.nupkg.sha512",
+    "C:\\Users\\trinh\\.nuget\\packages\\awssdk.core\\4.0.1.2\\awssdk.core.4.0.1.2.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",

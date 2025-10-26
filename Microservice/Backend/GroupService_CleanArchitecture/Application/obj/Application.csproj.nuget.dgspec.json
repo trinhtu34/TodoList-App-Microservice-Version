@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj": {}
+    "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj": {
+    "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
-        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\obj\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj"
+              "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
+    "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+        "projectPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
-        "outputPath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\obj\\",
+        "outputPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

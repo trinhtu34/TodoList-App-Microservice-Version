@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fdgAzlaLiZg=",
+  "dgSpecHash": "XhRNJA+ZRTo=",
   "success": true,
-  "projectFilePath": "D:\\.vs\\ToDoListApplication\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Application\\Application.csproj",
+  "projectFilePath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trinh\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\trinh\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatService_SignalR_Version")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+202eb852a2483e4b279fe5fc7eb987fa86ed4b4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatService_SignalR_Version")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatService_SignalR_Version")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

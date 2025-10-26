@@ -29,7 +29,7 @@ public class CreateInvitationCommandHandler : IRequestHandler<CreateInvitationCo
             ?? throw new Exception("Not a member");
 
         if (member.Role != "owner" && member.Role != "admin")
-            throw new Exception("No permission");   
+            throw new Exception("No permission");
 
         // Check if already member
         var alreadyMember = group.GroupMembers.Any(m => m.UserId == request.InvitedUser && m.IsActive == true);

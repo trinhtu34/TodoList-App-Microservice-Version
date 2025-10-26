@@ -3,9 +3,6 @@ using StackExchange.Redis;
 using ChatService_SignalR_Version.Hub;
 using ChatService_SignalR_Version.Services;
 using ChatService_SignalR_Version.Repositories;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.IdentityModel.JsonWebTokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -86,12 +83,22 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     };
 });
 
+// Remember to spell correctly when defining roles , same as the name � the cognito groups
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("PremiumOnly", policy =>
+        policy.RequireRole("Premium-user"));
+    options.AddPolicy("NormalOnly", policy =>
+        policy.RequireRole("Normal-user"));
+});
+
 // CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
     {
-        policy.WithOrigins("http://localhost:3000", "https://localhost:3000")
+        //policy.WithOrigins("http://localhost:3000", "https://localhost:3000")
+        policy.WithOrigins(origin => true)
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
