@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {}
+    "D:\\Individual_Folder\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
+    "D:\\Individual_Folder\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Individual_Folder\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
-        "outputPath": "D:\\.vs\\ToDoListApplication\\GroupService_CleanArchitecture\\Domain\\obj\\",
+        "projectPath": "D:\\Individual_Folder\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\APC\\.nuget\\packages\\",
+        "outputPath": "D:\\Individual_Folder\\TodoList-App-Microservice-Version\\Microservice\\Backend\\GroupService_CleanArchitecture\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\APC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

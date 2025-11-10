@@ -105,3 +105,18 @@ npm run dev
 ├── k8s/                          # Config Kubernetes
 └── NotificationService/          # Hệ thống thông báo AWS (thiết kế)
 ```
+
+
+## Các bước Migrate database cho từng Service
+
+```
+# GroupService
+cd Infrastructure.Persistence
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+# TodoService
+
+# TagService
+
+```
